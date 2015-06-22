@@ -1,1 +1,1 @@
-# Updated design for http://deccanrubyconf.org
+# DeccanRubyConf 2015
