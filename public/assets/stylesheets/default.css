@@ -2370,7 +2370,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 310, ../sass/global.scss */
 .sec-speakers .main-content .thumbnail h4 { margin-bottom: 5px; }
 /* line 314, ../sass/global.scss */
-.sec-speakers .main-content .thumbnail p { font-family: "MontserratHairLine", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; margin-bottom: 10px; padding-top: 10px; }
+.sec-speakers .main-content .thumbnail p { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; margin-bottom: 10px; padding-top: 10px; }
 /* line 323, ../sass/global.scss */
 .sec-speakers .main-content .caption { max-height: 300px; overflow: scroll; padding: 5px; }
 /* line 331, ../sass/global.scss */
