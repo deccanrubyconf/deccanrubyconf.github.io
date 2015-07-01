@@ -2422,7 +2422,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 452, ../sass/global.scss */
 .sec-sponsors .partners-wrap { width: auto; height: 120px; background-color: #FCFCFC; }
 /* line 457, ../sass/global.scss */
-.sec-sponsors .partners-wrap .partners { position: relative; width: 33%; display: inline-block; float: left; text-align: center; top: 50%; transform: translate(0%, -50%); }
+.sec-sponsors .partners-wrap .partners { position: relative; width: 25%; display: inline-block; float: left; text-align: center; top: 50%; transform: translate(0%, -50%); }
 /* line 466, ../sass/global.scss */
 .sec-sponsors .partners-wrap .partners p { font-family: "MontserratHairLine", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; color: #646B6B; text-transform: uppercase; padding-top: 5px; }
 /* line 475, ../sass/global.scss */
