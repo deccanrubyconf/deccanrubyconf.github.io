@@ -2258,7 +2258,7 @@ p { margin: 0; }
 body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; font-size: 18px; color: #0A0B0B; background-color: #0A0B0B; }
 
 /* line 32, ../sass/global.scss */
-.navbar { position: fixed; margin-bottom: 0; min-height: 40px; border: none; right: 0; left: 0; background-color: rgba(10, 11, 11, 0.3); }
+.navbar { position: fixed; margin-bottom: 0; min-height: 40px; border: none; right: 0; left: 0; background-color: rgba(10, 11, 11, 0.8); }
 
 /* line 42, ../sass/global.scss */
 .logo-wrap-mobile { display: none; }
@@ -2268,7 +2268,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .logo-wrap-mobile a:hover, .logo-wrap-mobile a:focus { text-decoration: none; }
 
 /* line 59, ../sass/global.scss */
-.navbar-nav li a { padding: 15px; font-size: 12px; font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; color: #A01D25; text-transform: uppercase; }
+.navbar-nav li a { padding: 15px; font-size: 12px; font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; color: #E60000; text-transform: uppercase; }
 /* line 66, ../sass/global.scss */
 .navbar-nav li a:hover, .navbar-nav li a:focus { background-color: transparent; color: #FCFCFC; }
 
