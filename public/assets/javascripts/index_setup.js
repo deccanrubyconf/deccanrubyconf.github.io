@@ -19,7 +19,7 @@ $(document).ready(function(){
             e.preventDefault();
             hash = this.hash;
             $("html, body").animate({
-                scrollTop: parseInt($(this.hash).offset().top) + "px"
+                scrollTop: parseInt($(this.hash).offset().top - 50) + "px"
             }, 1500);});
     }
 });
