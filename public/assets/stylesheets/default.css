@@ -2460,7 +2460,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 559, ../sass/global.scss */
 .sec-contact .conatct-wrap a:hover, .sec-contact .conatct-wrap a:focus { color: #A01D25; text-decoration: none; }
 /* line 566, ../sass/global.scss */
-.sec-contact .footer-text { position: absolute; font-size: 12px; color: #646B6B; bottom: 20px; left: 50%; transform: translate(-50%, 0%); }
+.sec-contact .footer-text { position: absolute; font-size: 12px; color: #646B6B; bottom: 20px; left: 50%; transform: translate(-50%, 0%); -webkit-transform: translate(-50%, 0%); }
 /* line 574, ../sass/global.scss */
 .sec-contact .footer-text a { color: #CC2026; }
 /* line 577, ../sass/global.scss */
