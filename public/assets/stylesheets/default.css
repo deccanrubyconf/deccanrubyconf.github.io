@@ -2426,7 +2426,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 457, ../sass/global.scss */
 .sec-sponsors .partners-wrap .partners { position: relative; width: 25%; display: inline-block; float: left; text-align: center; top: 50%; transform: translate(0%, -50%); -webkit-transform: translate(0%, -50%); }
 /* line 466, ../sass/global.scss */
-.sec-sponsors .partners-wrap .partners p { font-family: "MontserratHairLine", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; color: #646B6B; text-transform: uppercase; padding-top: 5px; }
+.sec-sponsors .partners-wrap .partners p { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; color: #646B6B; text-transform: uppercase; padding-top: 5px; }
 /* line 475, ../sass/global.scss */
 .sec-sponsors .partners-wrap .partners-logo { display: block; width: auto; margin: 0 auto; }
 /* line 480, ../sass/global.scss */
