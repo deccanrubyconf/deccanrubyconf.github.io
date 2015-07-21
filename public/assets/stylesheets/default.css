@@ -2323,7 +2323,9 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .get-sponsors a:hover, .get-sponsors a:focus { color: #A01D25; text-decoration: none; }
 
 /* line 189, ../sass/global.scss */
-.pati { position: absolute; bottom: 100px; left: 50%; transform: translate(-50%, 0%); }
+.pati { position: absolute; bottom: 100px; left: 50%; -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
 /* line 195, ../sass/global.scss */
 .pati.registration-pati { width: 180px; height: 94px; }
 /* line 200, ../sass/global.scss */
