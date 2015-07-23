@@ -2431,7 +2431,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .sec-sponsors .partners-wrap .partners-logo { display: block; width: auto; margin: 0 auto; }
 /* line 480, ../sass/global.scss */
 .sec-sponsors .partners-wrap .partners-logo.partner1 { height: 60px; }
-.sec-sponsors .partners-wrap .partners-logo.partner1.codeignition { height: 36px; margin-left: 2px; }
+.sec-sponsors .partners-wrap .partners-logo.partner1.codeignition { height: 36px; }
 .sec-sponsors .partners-wrap .partners-logo.partner1.ahmads-photography { height: 35px; width: 140px; }
 /* line 486, ../sass/global.scss */
 .sec-sponsors .download-link { position: absolute; top: 40px; right: 70px; color: #CC2026; font-size: 24px; text-transform: uppercase; }
