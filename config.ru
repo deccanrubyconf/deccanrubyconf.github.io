@@ -1,5 +1,16 @@
+require 'sprockets'
+
+map '/assets' do
+  environment = Sprockets::Environment.new
+  environment.append_path 'public/assets/stylesheets'
+  environment.append_path 'public/assets/javascripts'
+  environment.append_path 'public/assets/images'
+  environment.append_path 'public/assets/fonts'
+  run environment
+end
+
 use Rack::Static,
-  :urls => ["/assets/images", "/assets/javascripts", "/assets/stylesheets", "/assets/fonts", "/drbc_2015_sponsorship.pdf", "/coc.html", "/assets/bower_components/jquery/dist"],
+  :urls => ["/drbc_2015_sponsorship.pdf", "/coc.html", "/assets/bower_components/jquery/dist"],
   :root => "public"
 
 run lambda { |env|
