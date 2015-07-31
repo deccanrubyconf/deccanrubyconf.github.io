@@ -5,7 +5,7 @@ ruby '2.2.2'
 
 gem 'rack'
 
-gem 'sprockets', '~> 3.0'
+gem 'sprockets', github: 'rails/sprockets'
 
 gem 'sass'
 
