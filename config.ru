@@ -6,6 +6,8 @@ map '/assets' do
   environment.append_path 'public/assets/javascripts'
   environment.append_path 'public/assets/images'
   environment.append_path 'public/assets/fonts'
+  environment.js_compressor  = :uglify
+  environment.css_compressor = :scss
   run environment
 end
 
