@@ -1,10 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    execjs (2.5.2)
+    json (1.8.3)
     rack (1.6.2)
     sass (3.4.16)
     sprockets (3.2.0)
       rack (~> 1.0)
+    uglifier (2.7.1)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
 
 PLATFORMS
   ruby
@@ -13,6 +18,7 @@ DEPENDENCIES
   rack
   sass
   sprockets (~> 3.0)
+  uglifier
 
 BUNDLED WITH
    1.10.5

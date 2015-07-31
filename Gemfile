@@ -8,3 +8,5 @@ gem 'rack'
 gem 'sprockets', '~> 3.0'
 
 gem 'sass'
+
+gem 'uglifier'
