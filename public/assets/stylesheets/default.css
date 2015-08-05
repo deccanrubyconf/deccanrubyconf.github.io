@@ -2404,6 +2404,10 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .sec-schedule .schedule-table tr td:last-child { text-align: right; }
 /* line 399, ../sass/global.scss */
 .sec-schedule .schedule-table tr td a { color: #CC2026; vertical-align: middle; margin-left: 18px; }
+
+/* custom edit */
+.sec-schedule .schedule-table tr td a.register5k-link { margin-left: 0px; }
+
 /* line 404, ../sass/global.scss */
 .sec-schedule .schedule-table tr td a:hover, .sec-schedule .schedule-table tr td a:focus { color: #A01D25; text-decoration: none; }
 /* line 413, ../sass/global.scss */
