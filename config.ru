@@ -12,7 +12,7 @@ map '/assets' do
 end
 
 use Rack::Static,
-  :urls => ["/drbc_2015_sponsorship.pdf", "/coc.html", "/assets/bower_components/jquery/dist"],
+  :urls => ["/drbc_2015_sponsorship.pdf", "/coc.html", "/newsletter-5-aug.html", "/assets/bower_components/jquery/dist"],
   :root => "public"
 
 run lambda { |env|
