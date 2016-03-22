@@ -10,3 +10,5 @@ gem 'sprockets', github: 'rails/sprockets'
 gem 'sass'
 
 gem 'uglifier'
+
+gem 'puma'

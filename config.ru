@@ -1,3 +1,5 @@
+#\ -s puma
+
 require 'sprockets'
 
 map '/assets' do
