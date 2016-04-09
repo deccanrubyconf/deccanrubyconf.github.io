@@ -1,0 +1,34 @@
+# Dependencies
+markdown:            kramdown
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+
+permalink: /:year/:month/:day/:title.html
+
+# Setup
+title:               'DeccanRubyConf 2016'
+tagline:             ''
+description:         ''
+url:                 'http://deccanrubyconf.github.io'
+baseurl:
+paginate:            20
+
+# Custom vars
+version:             1.0.0
+
+exclude: ['vendor']
+
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass
+
+sass:
+    sass_dir: assets/sass
+
+# Disable this in development, to reduce build time.
+# Remember to enable back and run
+# jekyll build
+# to rebuild site after new changes, before pushing to s3, using s3_website push
+gems:
+  - jekyll-paginate
