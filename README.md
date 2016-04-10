@@ -5,5 +5,5 @@
 ``` ruby
 bundle install
 
-bundle exec rackup
+bundle exec jekyll serve
 ```
