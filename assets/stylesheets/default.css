@@ -147,6 +147,7 @@ figure { margin: 0; }
 /* line 76, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 img { vertical-align: middle; }
 
+.white-image-bg { background-color: white; padding: 2ex; }
 /* line 81, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 .img-responsive { display: block; max-width: 100%; height: auto; }
 
