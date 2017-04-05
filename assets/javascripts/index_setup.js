@@ -15,11 +15,17 @@ $(document).ready(function(){
     } else {
 
         $(".nav li a[href*=#]:not([href=#])").on("click", function(e) {
-            var hash;
-            e.preventDefault();
+            var hash, top;
             hash = this.hash;
-            $("html, body").animate({
-                scrollTop: parseInt($(this.hash).offset().top - 50) + "px"
-            }, 1500);});
+            top = $(this.hash).offset();
+
+            if(typeof(top) !== 'undefined') {
+              e.preventDefault();
+
+              $("html, body").animate({
+                scrollTop: parseInt(top.top - 50) + "px"
+              }, 1500);
+            }
+        });
     }
 });
