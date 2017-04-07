@@ -208,6 +208,7 @@ h6, .h6 { font-size: 12px; }
 /* line 58, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 p { margin: 0 0 10px; }
 
+
 /* line 62, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 .lead { margin-bottom: 20px; font-size: 16px; font-weight: 300; line-height: 1.4; }
 @media (min-width: 768px) { /* line 62, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
@@ -2658,3 +2659,5 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
   .sec-contact .call-wrap span { margin-left: 20px; }
   /* line 436, ../sass/responsive.scss */
   .sec-contact .footer-text { left: 30px; right: 30px; transform: translate(0%, 0%); } }
+
+.text-18 { font-size: 18px; }
