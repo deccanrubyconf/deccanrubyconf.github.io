@@ -2259,6 +2259,9 @@ p { margin: 0; }
 /* line 25, ../sass/global.scss */
 body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; font-size: 18px; color: #0A0B0B; background-color: #0A0B0B; }
 
+/* line 25, ../sass/global.scss */
+body.workshop { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; font-size: 18px; color: #0A0B0B; background-color: #FCFCFC; }
+
 /* line 32, ../sass/global.scss */
 .navbar { position: fixed; margin-bottom: 0; min-height: 40px; border: none; right: 0; left: 0; background-color: rgba(10, 11, 11, 0.8); }
 
