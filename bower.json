@@ -1,0 +1,21 @@
+{
+  "name": "drbc-2017",
+  "homepage": "https://github.com/deccanrubyconf/deccanrubyconf.github.io",
+  "authors": [
+    "Prathamesh Sonpatki <csonpatki@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
