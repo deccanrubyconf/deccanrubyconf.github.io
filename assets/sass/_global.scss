@@ -36,7 +36,7 @@ body{
   border: none;
   right: 0;
   left: 0;
-  background-color: rgba(10, 11, 11, 0.3);
+  background-color: rgba(10, 11, 11, 0.8);
 }
 
 .logo-wrap-mobile{
@@ -120,7 +120,7 @@ body{
     background: $alm-black url("../images/bg-home.jpg") 100% 100% no-repeat;
     background-size: cover;
     text-align: right;
-    padding: 150px 10px 10px;
+    padding: 99px 10px 10px;
     min-height: 660px;
   }
 
@@ -580,4 +580,42 @@ body{
       }
     }
   }
+}
+
+
+/*CSS added on 08/05/2017*/
+
+.content-wrap{
+  display: flex;
+  background-color: #fff;
+  
+  .side-panel{
+    h1{
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      top: 300px;
+    }
+  }
+  
+  .pati{
+    top: 500px;
+  }
+  
+  
+  &.coc-wrap{
+    h1{
+      text-transform: uppercase;
+    }
+    p{
+      font-size:1.25em;
+      line-height:2;
+      margin-bottom:2em;
+      margin-top:1em;
+      overflow-wrap:break-word;
+      position:relative;
+      color:#000;
+    }
+  }
+  
 }
