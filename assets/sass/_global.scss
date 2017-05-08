@@ -598,23 +598,62 @@ body{
     }
   }
   
+  .inner-content{
+    color:#ED2626;
+    margin:3em;
+  }
+  
   .pati{
     top: 500px;
   }
   
+  .blockquote{
+    font-size:1.25em;
+    line-height:2;
+    margin-bottom:2em;
+    margin-top:1em;
+    overflow-wrap:break-word;
+    position:relative;
+    color:#000;
+  }
+  
+  .sub-heading{
+    font-size:2em;
+    line-height:2.5;
+    color: #ED2626;
+  }
+  span{
+    color: #ED2626;
+    font-size:1.25em;
+    line-height:1;
+    margin: 1em;
+  }
+  
+  p{
+    color:#2E2E2E;
+    margin:1em
+  }
+  
+  .btn-register{
+    font-size:1em;
+    line-height:1;
+    margin-top:2em;
+    font-weight:bold
+  }
+  
+  .coc{
+    li{
+      color: #000;
+    }
+  }
   
   &.coc-wrap{
+    .main-heading{
+      color:#ED2626;
+    }
     h1{
       text-transform: uppercase;
-    }
-    p{
-      font-size:1.25em;
-      line-height:2;
-      margin-bottom:2em;
-      margin-top:1em;
-      overflow-wrap:break-word;
-      position:relative;
-      color:#000;
+  
     }
   }
   
