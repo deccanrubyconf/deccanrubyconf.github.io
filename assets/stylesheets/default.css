@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /* line 9, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
@@ -20,47 +20,47 @@ audio:not([controls]) { display: none; height: 0; }
 /* line 89, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 a { background-color: transparent; }
 
-/* line 97, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 98, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 a:active, a:hover { outline: 0; }
 
-/* line 109, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 110, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 abbr[title] { border-bottom: 1px dotted; }
 
-/* line 117, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 118, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 b, strong { font-weight: bold; }
 
-/* line 126, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 127, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 dfn { font-style: italic; }
 
-/* line 135, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 136, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 h1 { font-size: 2em; margin: 0.67em 0; }
 
-/* line 144, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 145, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 mark { background: #ff0; color: #000; }
 
-/* line 153, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 154, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 small { font-size: 80%; }
 
-/* line 161, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 162, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
 
-/* line 169, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 170, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 sup { top: -0.5em; }
 
-/* line 173, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 174, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 sub { bottom: -0.25em; }
 
-/* line 184, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 185, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 img { border: 0; }
 
-/* line 192, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 193, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 svg:not(:root) { overflow: hidden; }
 
-/* line 203, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 204, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 figure { margin: 1em 40px; }
 
-/* line 211, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
-hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+/* line 212, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+hr { box-sizing: content-box; height: 0; }
 
 /* line 221, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 pre { overflow: auto; }
@@ -95,28 +95,28 @@ input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0
 /* line 346, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
 
-/* line 357, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
-input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+/* line 356, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+input[type="search"] { -webkit-appearance: textfield; box-sizing: content-box; }
 
-/* line 370, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 367, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 
-/* line 379, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 376, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
 
-/* line 390, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 387, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 legend { border: 0; padding: 0; }
 
-/* line 399, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 396, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 textarea { overflow: auto; }
 
-/* line 408, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 405, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 optgroup { font-weight: bold; }
 
-/* line 419, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 416, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* line 424, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 421, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 td, th { padding: 0; }
 
 /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -139,7 +139,7 @@ a { color: #337ab7; text-decoration: none; }
 /* line 52, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus { color: #23527c; text-decoration: underline; }
 /* line 58, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
-a:focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
+a:focus { outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
 
 /* line 69, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 figure { margin: 0; }
@@ -147,7 +147,6 @@ figure { margin: 0; }
 /* line 76, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 img { vertical-align: middle; }
 
-.white-image-bg { background-color: white; padding: 2ex; }
 /* line 81, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 .img-responsive { display: block; max-width: 100%; height: auto; }
 
@@ -169,7 +168,7 @@ hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ee
 /* line 141, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
-/* line 160, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
+/* line 159, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 [role="button"] { cursor: pointer; }
 
 /* line 9, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
@@ -207,7 +206,6 @@ h6, .h6 { font-size: 12px; }
 
 /* line 58, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 p { margin: 0 0 10px; }
-
 
 /* line 62, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 .lead { margin-bottom: 20px; font-size: 16px; font-weight: 300; line-height: 1.4; }
@@ -251,31 +249,31 @@ mark, .mark { background-color: #fcf8e3; padding: .2em; }
 .text-primary { color: #337ab7; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
-a.text-primary:hover { color: #286090; }
+a.text-primary:hover, a.text-primary:focus { color: #286090; }
 
 /* line 5, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-success { color: #3c763d; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
-a.text-success:hover { color: #2b542c; }
+a.text-success:hover, a.text-success:focus { color: #2b542c; }
 
 /* line 5, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-info { color: #31708f; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
-a.text-info:hover { color: #245269; }
+a.text-info:hover, a.text-info:focus { color: #245269; }
 
 /* line 5, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-warning { color: #8a6d3b; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
-a.text-warning:hover { color: #66512c; }
+a.text-warning:hover, a.text-warning:focus { color: #66512c; }
 
 /* line 5, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-danger { color: #a94442; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
-a.text-danger:hover { color: #843534; }
+a.text-danger:hover, a.text-danger:focus { color: #843534; }
 
 /* line 119, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 .bg-primary { color: #fff; }
@@ -284,31 +282,31 @@ a.text-danger:hover { color: #843534; }
 .bg-primary { background-color: #337ab7; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
-a.bg-primary:hover { background-color: #286090; }
+a.bg-primary:hover, a.bg-primary:focus { background-color: #286090; }
 
 /* line 5, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-success { background-color: #dff0d8; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
-a.bg-success:hover { background-color: #c1e2b3; }
+a.bg-success:hover, a.bg-success:focus { background-color: #c1e2b3; }
 
 /* line 5, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-info { background-color: #d9edf7; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
-a.bg-info:hover { background-color: #afd9ee; }
+a.bg-info:hover, a.bg-info:focus { background-color: #afd9ee; }
 
 /* line 5, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-warning { background-color: #fcf8e3; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
-a.bg-warning:hover { background-color: #f7ecb5; }
+a.bg-warning:hover, a.bg-warning:focus { background-color: #f7ecb5; }
 
 /* line 5, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-danger { background-color: #f2dede; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
-a.bg-danger:hover { background-color: #e4b9b9; }
+a.bg-danger:hover, a.bg-danger:focus { background-color: #e4b9b9; }
 
 /* line 138, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 .page-header { padding-bottom: 9px; margin: 40px 0 20px; border-bottom: 1px solid #eeeeee; }
@@ -995,22 +993,22 @@ input[type="search"] { -webkit-box-sizing: border-box; -moz-box-sizing: border-b
 /* line 52, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 input[type="radio"], input[type="checkbox"] { margin: 4px 0 0; margin-top: 1px \9; line-height: normal; }
 
-/* line 60, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 59, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 input[type="file"] { display: block; }
 
-/* line 65, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 64, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 input[type="range"] { display: block; width: 100%; }
 
-/* line 71, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 70, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 select[multiple], select[size] { height: auto; }
 
-/* line 77, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
+/* line 76, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus { outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
 
-/* line 84, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 83, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 output { display: block; padding-top: 7px; font-size: 14px; line-height: 1.42857; color: #555555; }
 
-/* line 115, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 114, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-control { display: block; width: 100%; height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.42857; color: #555555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
 /* line 57, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .form-control:focus { border-color: #66afe9; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
@@ -1020,55 +1018,57 @@ output { display: block; padding-top: 7px; font-size: 14px; line-height: 1.42857
 .form-control:-ms-input-placeholder { color: #999; }
 /* line 108, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control::-webkit-input-placeholder { color: #999; }
-/* line 141, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 136, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+.form-control::-ms-expand { border: 0; background-color: transparent; }
+/* line 146, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control { background-color: #eeeeee; opacity: 1; }
-/* line 148, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 153, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-control[disabled], fieldset[disabled] .form-control { cursor: not-allowed; }
 
-/* line 157, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 162, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 textarea.form-control { height: auto; }
 
-/* line 169, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 174, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 input[type="search"] { -webkit-appearance: none; }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) { /* line 182, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"] { line-height: 34px; }
-  /* line 188, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+@media screen and (-webkit-min-device-pixel-ratio: 0) { /* line 193, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control { line-height: 34px; }
+  /* line 197, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   input[type="date"].input-sm, .input-group-sm input[type="date"], input[type="time"].input-sm, .input-group-sm input[type="time"], input[type="datetime-local"].input-sm, .input-group-sm input[type="datetime-local"], input[type="month"].input-sm, .input-group-sm input[type="month"] { line-height: 30px; }
-  /* line 193, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 202, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   input[type="date"].input-lg, .input-group-lg input[type="date"], input[type="time"].input-lg, .input-group-lg input[type="time"], input[type="datetime-local"].input-lg, .input-group-lg input[type="datetime-local"], input[type="month"].input-lg, .input-group-lg input[type="month"] { line-height: 46px; } }
-/* line 206, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 215, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group { margin-bottom: 15px; }
 
-/* line 215, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 224, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .radio, .checkbox { position: relative; display: block; margin-top: 10px; margin-bottom: 10px; }
-/* line 222, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 231, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .radio label, .checkbox label { min-height: 20px; padding-left: 20px; margin-bottom: 0; font-weight: normal; cursor: pointer; }
 
-/* line 230, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 239, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] { position: absolute; margin-left: -20px; margin-top: 4px \9; }
 
-/* line 239, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 248, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .radio + .radio, .checkbox + .checkbox { margin-top: -5px; }
 
-/* line 245, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 254, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .radio-inline, .checkbox-inline { position: relative; display: inline-block; padding-left: 20px; margin-bottom: 0; vertical-align: middle; font-weight: normal; cursor: pointer; }
 
-/* line 255, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 264, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline { margin-top: 0; margin-left: 10px; }
 
-/* line 267, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 276, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 input[type="radio"][disabled], input[type="radio"].disabled, fieldset[disabled] input[type="radio"], input[type="checkbox"][disabled], input[type="checkbox"].disabled, fieldset[disabled] input[type="checkbox"] { cursor: not-allowed; }
 
-/* line 276, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 285, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .radio-inline.disabled, fieldset[disabled] .radio-inline, .checkbox-inline.disabled, fieldset[disabled] .checkbox-inline { cursor: not-allowed; }
 
-/* line 286, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 295, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .radio.disabled label, fieldset[disabled] .radio label, .checkbox.disabled label, fieldset[disabled] .checkbox label { cursor: not-allowed; }
 
-/* line 298, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 307, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-control-static { padding-top: 7px; padding-bottom: 7px; margin-bottom: 0; min-height: 34px; }
-/* line 306, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 315, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-control-static.input-lg, .form-control-static.input-sm { padding-left: 0; padding-right: 0; }
 
 /* line 71, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
@@ -1080,14 +1080,14 @@ select.input-sm { height: 30px; line-height: 30px; }
 /* line 84, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 textarea.input-sm, select[multiple].input-sm { height: auto; }
 
-/* line 71, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
+/* line 333, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm .form-control { height: 30px; padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; }
-/* line 79, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
+/* line 340, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm select.form-control { height: 30px; line-height: 30px; }
-/* line 84, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
+/* line 344, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm textarea.form-control, .form-group-sm select[multiple].form-control { height: auto; }
-/* line 327, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-.form-group-sm .form-control-static { height: 30px; padding: 5px 10px; font-size: 12px; line-height: 1.5; min-height: 32px; }
+/* line 348, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+.form-group-sm .form-control-static { height: 30px; min-height: 32px; padding: 6px 10px; font-size: 12px; line-height: 1.5; }
 
 /* line 71, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .input-lg { height: 46px; padding: 10px 16px; font-size: 18px; line-height: 1.33333; border-radius: 6px; }
@@ -1098,28 +1098,28 @@ select.input-lg { height: 46px; line-height: 46px; }
 /* line 84, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 textarea.input-lg, select[multiple].input-lg { height: auto; }
 
-/* line 71, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
+/* line 359, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-lg .form-control { height: 46px; padding: 10px 16px; font-size: 18px; line-height: 1.33333; border-radius: 6px; }
-/* line 79, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
+/* line 366, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-lg select.form-control { height: 46px; line-height: 46px; }
-/* line 84, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
+/* line 370, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-lg textarea.form-control, .form-group-lg select[multiple].form-control { height: auto; }
-/* line 341, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-.form-group-lg .form-control-static { height: 46px; padding: 10px 16px; font-size: 18px; line-height: 1.33333; min-height: 38px; }
+/* line 374, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+.form-group-lg .form-control-static { height: 46px; min-height: 38px; padding: 11px 16px; font-size: 18px; line-height: 1.33333; }
 
-/* line 355, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 388, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .has-feedback { position: relative; }
-/* line 360, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 393, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .has-feedback .form-control { padding-right: 42.5px; }
 
-/* line 365, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 398, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-control-feedback { position: absolute; top: 0; right: 0; z-index: 2; display: block; width: 34px; height: 34px; line-height: 34px; text-align: center; pointer-events: none; }
 
-/* line 377, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-.input-lg + .form-control-feedback { width: 46px; height: 46px; line-height: 46px; }
+/* line 410, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+.input-lg + .form-control-feedback, .input-group-lg + .form-control-feedback, .form-group-lg .form-control + .form-control-feedback { width: 46px; height: 46px; line-height: 46px; }
 
-/* line 382, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-.input-sm + .form-control-feedback { width: 30px; height: 30px; line-height: 30px; }
+/* line 417, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+.input-sm + .form-control-feedback, .input-group-sm + .form-control-feedback, .form-group-sm .form-control + .form-control-feedback { width: 30px; height: 30px; line-height: 30px; }
 
 /* line 8, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label { color: #3c763d; }
@@ -1154,160 +1154,199 @@ textarea.input-lg, select[multiple].input-lg { height: auto; }
 /* line 37, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-error .form-control-feedback { color: #a94442; }
 
-/* line 402, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 439, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .has-feedback label ~ .form-control-feedback { top: 25px; }
-/* line 405, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 442, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .has-feedback label.sr-only ~ .form-control-feedback { top: 0; }
 
-/* line 416, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 453, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .help-block { display: block; margin-top: 5px; margin-bottom: 10px; color: #737373; }
 
-@media (min-width: 768px) { /* line 441, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+@media (min-width: 768px) { /* line 478, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .form-group { display: inline-block; margin-bottom: 0; vertical-align: middle; }
-  /* line 448, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 485, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .form-control { display: inline-block; width: auto; vertical-align: middle; }
-  /* line 455, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 492, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .form-control-static { display: inline-block; }
-  /* line 459, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 496, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .input-group { display: inline-table; vertical-align: middle; }
-  /* line 463, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-inline .input-group .input-group-addon, .form-inline .input-group .input-group-btn, .form-inline .input-group .form-control { width: auto; }
-  /* line 471, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-inline .input-group > .form-control { width: 100%; }
-  /* line 475, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-inline .control-label { margin-bottom: 0; vertical-align: middle; }
-  /* line 482, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-inline .radio, .form-inline .checkbox { display: inline-block; margin-top: 0; margin-bottom: 0; vertical-align: middle; }
-  /* line 489, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-inline .radio label, .form-inline .checkbox label { padding-left: 0; }
-  /* line 493, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-inline .radio input[type="radio"], .form-inline .checkbox input[type="checkbox"] { position: relative; margin-left: 0; }
   /* line 500, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .input-group .input-group-addon, .form-inline .input-group .input-group-btn, .form-inline .input-group .form-control { width: auto; }
+  /* line 508, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .input-group > .form-control { width: 100%; }
+  /* line 512, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .control-label { margin-bottom: 0; vertical-align: middle; }
+  /* line 519, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .radio, .form-inline .checkbox { display: inline-block; margin-top: 0; margin-bottom: 0; vertical-align: middle; }
+  /* line 526, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .radio label, .form-inline .checkbox label { padding-left: 0; }
+  /* line 530, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .form-inline .radio input[type="radio"], .form-inline .checkbox input[type="checkbox"] { position: relative; margin-left: 0; }
+  /* line 537, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .has-feedback .form-control-feedback { top: 0; } }
 
-/* line 522, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 559, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline { margin-top: 0; margin-bottom: 0; padding-top: 7px; }
-/* line 532, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 569, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .radio, .form-horizontal .checkbox { min-height: 27px; }
-/* line 538, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 575, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .form-group { margin-left: -15px; margin-right: -15px; }
 /* line 14, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .form-horizontal .form-group:before, .form-horizontal .form-group:after { content: " "; display: table; }
 /* line 19, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .form-horizontal .form-group:after { clear: both; }
-@media (min-width: 768px) { /* line 545, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+@media (min-width: 768px) { /* line 582, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .control-label { text-align: right; margin-bottom: 0; padding-top: 7px; } }
-/* line 556, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+/* line 593, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .has-feedback .form-control-feedback { right: 15px; }
-@media (min-width: 768px) { /* line 566, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-horizontal .form-group-lg .control-label { padding-top: 14.33333px; } }
-@media (min-width: 768px) { /* line 573, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-horizontal .form-group-sm .control-label { padding-top: 6px; } }
+@media (min-width: 768px) { /* line 603, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .form-horizontal .form-group-lg .control-label { padding-top: 11px; font-size: 18px; } }
+@media (min-width: 768px) { /* line 611, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .form-horizontal .form-group-sm .control-label { padding-top: 6px; font-size: 12px; } }
 
 /* line 9, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn { display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.42857; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 /* line 26, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
-.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus { outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
 /* line 32, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn:hover, .btn:focus, .btn.focus { color: #333; text-decoration: none; }
 /* line 39, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn:active, .btn.active { outline: 0; background-image: none; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
 /* line 46, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
-.btn.disabled, .btn[disabled], fieldset[disabled] .btn { cursor: not-allowed; pointer-events: none; opacity: 0.65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none; }
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn { cursor: not-allowed; opacity: 0.65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none; }
 
-/* line 60, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 58, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+a.btn.disabled, fieldset[disabled] a.btn { pointer-events: none; }
+
+/* line 68, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default { color: #333; background-color: #fff; border-color: #ccc; }
 /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle { color: #333; background-color: #e6e6e6; border-color: #adadad; }
-/* line 21, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle { background-image: none; }
+.btn-default:focus, .btn-default.focus { color: #333; background-color: #e6e6e6; border-color: #8c8c8c; }
+/* line 17, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-default:hover { color: #333; background-color: #e6e6e6; border-color: #adadad; }
+/* line 22, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle { color: #333; background-color: #e6e6e6; border-color: #adadad; }
 /* line 29, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active { background-color: #fff; border-color: #ccc; }
-/* line 40, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus { color: #333; background-color: #d4d4d4; border-color: #8c8c8c; }
+/* line 37, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle { background-image: none; }
+/* line 45, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus { background-color: #fff; border-color: #ccc; }
+/* line 53, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default .badge { color: #fff; background-color: #333; }
 
-/* line 63, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 71, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary { color: #fff; background-color: #337ab7; border-color: #2e6da4; }
 /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle { color: #fff; background-color: #286090; border-color: #204d74; }
-/* line 21, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle { background-image: none; }
+.btn-primary:focus, .btn-primary.focus { color: #fff; background-color: #286090; border-color: #122b40; }
+/* line 17, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-primary:hover { color: #fff; background-color: #286090; border-color: #204d74; }
+/* line 22, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle { color: #fff; background-color: #286090; border-color: #204d74; }
 /* line 29, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active { background-color: #337ab7; border-color: #2e6da4; }
-/* line 40, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus { color: #fff; background-color: #204d74; border-color: #122b40; }
+/* line 37, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle { background-image: none; }
+/* line 45, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus { background-color: #337ab7; border-color: #2e6da4; }
+/* line 53, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary .badge { color: #337ab7; background-color: #fff; }
 
-/* line 67, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 75, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-success { color: #fff; background-color: #5cb85c; border-color: #4cae4c; }
 /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle { color: #fff; background-color: #449d44; border-color: #398439; }
-/* line 21, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle { background-image: none; }
+.btn-success:focus, .btn-success.focus { color: #fff; background-color: #449d44; border-color: #255625; }
+/* line 17, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-success:hover { color: #fff; background-color: #449d44; border-color: #398439; }
+/* line 22, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle { color: #fff; background-color: #449d44; border-color: #398439; }
 /* line 29, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active { background-color: #5cb85c; border-color: #4cae4c; }
-/* line 40, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-success:active:hover, .btn-success:active:focus, .btn-success:active.focus, .btn-success.active:hover, .btn-success.active:focus, .btn-success.active.focus, .open > .btn-success.dropdown-toggle:hover, .open > .btn-success.dropdown-toggle:focus, .open > .btn-success.dropdown-toggle.focus { color: #fff; background-color: #398439; border-color: #255625; }
+/* line 37, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle { background-image: none; }
+/* line 45, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled.focus, .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled].focus, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success.focus { background-color: #5cb85c; border-color: #4cae4c; }
+/* line 53, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success .badge { color: #5cb85c; background-color: #fff; }
 
-/* line 71, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 79, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-info { color: #fff; background-color: #5bc0de; border-color: #46b8da; }
 /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle { color: #fff; background-color: #31b0d5; border-color: #269abc; }
-/* line 21, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle { background-image: none; }
+.btn-info:focus, .btn-info.focus { color: #fff; background-color: #31b0d5; border-color: #1b6d85; }
+/* line 17, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-info:hover { color: #fff; background-color: #31b0d5; border-color: #269abc; }
+/* line 22, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle { color: #fff; background-color: #31b0d5; border-color: #269abc; }
 /* line 29, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active { background-color: #5bc0de; border-color: #46b8da; }
-/* line 40, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-info:active:hover, .btn-info:active:focus, .btn-info:active.focus, .btn-info.active:hover, .btn-info.active:focus, .btn-info.active.focus, .open > .btn-info.dropdown-toggle:hover, .open > .btn-info.dropdown-toggle:focus, .open > .btn-info.dropdown-toggle.focus { color: #fff; background-color: #269abc; border-color: #1b6d85; }
+/* line 37, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle { background-image: none; }
+/* line 45, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus { background-color: #5bc0de; border-color: #46b8da; }
+/* line 53, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info .badge { color: #5bc0de; background-color: #fff; }
 
-/* line 75, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 83, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-warning { color: #fff; background-color: #f0ad4e; border-color: #eea236; }
 /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-warning:hover, .btn-warning:focus, .btn-warning.focus, .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle { color: #fff; background-color: #ec971f; border-color: #d58512; }
-/* line 21, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle { background-image: none; }
+.btn-warning:focus, .btn-warning.focus { color: #fff; background-color: #ec971f; border-color: #985f0d; }
+/* line 17, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-warning:hover { color: #fff; background-color: #ec971f; border-color: #d58512; }
+/* line 22, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle { color: #fff; background-color: #ec971f; border-color: #d58512; }
 /* line 29, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active { background-color: #f0ad4e; border-color: #eea236; }
-/* line 40, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-warning:active:hover, .btn-warning:active:focus, .btn-warning:active.focus, .btn-warning.active:hover, .btn-warning.active:focus, .btn-warning.active.focus, .open > .btn-warning.dropdown-toggle:hover, .open > .btn-warning.dropdown-toggle:focus, .open > .btn-warning.dropdown-toggle.focus { color: #fff; background-color: #d58512; border-color: #985f0d; }
+/* line 37, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle { background-image: none; }
+/* line 45, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning.focus { background-color: #f0ad4e; border-color: #eea236; }
+/* line 53, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning .badge { color: #f0ad4e; background-color: #fff; }
 
-/* line 79, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 87, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-danger { color: #fff; background-color: #d9534f; border-color: #d43f3a; }
 /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle { color: #fff; background-color: #c9302c; border-color: #ac2925; }
-/* line 21, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle { background-image: none; }
+.btn-danger:focus, .btn-danger.focus { color: #fff; background-color: #c9302c; border-color: #761c19; }
+/* line 17, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-danger:hover { color: #fff; background-color: #c9302c; border-color: #ac2925; }
+/* line 22, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle { color: #fff; background-color: #c9302c; border-color: #ac2925; }
 /* line 29, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active { background-color: #d9534f; border-color: #d43f3a; }
-/* line 40, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-danger:active:hover, .btn-danger:active:focus, .btn-danger:active.focus, .btn-danger.active:hover, .btn-danger.active:focus, .btn-danger.active.focus, .open > .btn-danger.dropdown-toggle:hover, .open > .btn-danger.dropdown-toggle:focus, .open > .btn-danger.dropdown-toggle.focus { color: #fff; background-color: #ac2925; border-color: #761c19; }
+/* line 37, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle { background-image: none; }
+/* line 45, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+.btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus { background-color: #d9534f; border-color: #d43f3a; }
+/* line 53, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger .badge { color: #d9534f; background-color: #fff; }
 
-/* line 88, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 96, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link { color: #337ab7; font-weight: normal; border-radius: 0; }
-/* line 93, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link { background-color: transparent; -webkit-box-shadow: none; box-shadow: none; }
 /* line 101, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+.btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link { background-color: transparent; -webkit-box-shadow: none; box-shadow: none; }
+/* line 109, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active { border-color: transparent; }
-/* line 107, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-link:hover, .btn-link:focus { color: #23527c; text-decoration: underline; background-color: transparent; }
 /* line 115, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+.btn-link:hover, .btn-link:focus { color: #23527c; text-decoration: underline; background-color: transparent; }
+/* line 123, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus { color: #777777; text-decoration: none; }
 
-/* line 127, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 135, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-lg { padding: 10px 16px; font-size: 18px; line-height: 1.33333; border-radius: 6px; }
 
-/* line 131, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 139, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-sm { padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; }
 
-/* line 135, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 143, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-xs { padding: 1px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px; }
 
-/* line 143, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 151, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-block { display: block; width: 100%; }
 
-/* line 149, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 157, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-block + .btn-block { margin-top: 5px; }
 
-/* line 157, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 165, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block { width: 100%; }
 
 /* line 10, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_component-animations.scss */
@@ -1330,62 +1369,62 @@ tbody.collapse.in { display: table-row-group; }
 .collapsing { position: relative; height: 0; overflow: hidden; -webkit-transition-property: height, visibility; transition-property: height, visibility; -webkit-transition-duration: 0.35s; transition-duration: 0.35s; -webkit-transition-timing-function: ease; transition-timing-function: ease; }
 
 /* line 7, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
-.caret { display: inline-block; width: 0; height: 0; margin-left: 2px; vertical-align: middle; border-top: 4px dashed; border-right: 4px solid transparent; border-left: 4px solid transparent; }
+.caret { display: inline-block; width: 0; height: 0; margin-left: 2px; vertical-align: middle; border-top: 4px dashed; border-top: 4px solid \9; border-right: 4px solid transparent; border-left: 4px solid transparent; }
 
-/* line 19, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 20, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropup, .dropdown { position: relative; }
 
-/* line 25, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 26, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-toggle:focus { outline: 0; }
 
-/* line 30, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 31, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu { position: absolute; top: 100%; left: 0; z-index: 1000; display: none; float: left; min-width: 160px; padding: 5px 0; margin: 2px 0 0; list-style: none; font-size: 14px; text-align: left; background-color: #fff; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px; -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); background-clip: padding-box; }
-/* line 53, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 54, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu.pull-right { right: 0; left: auto; }
-/* line 59, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 60, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu .divider { height: 1px; margin: 9px 0; overflow: hidden; background-color: #e5e5e5; }
-/* line 64, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 65, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a { display: block; padding: 3px 20px; clear: both; font-weight: normal; line-height: 1.42857; color: #333333; white-space: nowrap; }
 
-/* line 77, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 78, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { text-decoration: none; color: #262626; background-color: #f5f5f5; }
 
-/* line 87, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 88, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus { color: #fff; text-decoration: none; outline: 0; background-color: #337ab7; }
 
-/* line 102, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 103, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus { color: #777777; }
-/* line 109, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 110, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus { text-decoration: none; background-color: transparent; background-image: none; filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); cursor: not-allowed; }
 
-/* line 122, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 123, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .open > .dropdown-menu { display: block; }
-/* line 127, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 128, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .open > a { outline: 0; }
 
-/* line 136, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 137, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu-right { left: auto; right: 0; }
 
-/* line 146, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 147, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu-left { left: 0; right: auto; }
 
-/* line 152, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 153, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-header { display: block; padding: 3px 20px; font-size: 12px; line-height: 1.42857; color: #777777; white-space: nowrap; }
 
-/* line 162, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 163, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-backdrop { position: fixed; left: 0; right: 0; bottom: 0; top: 0; z-index: 990; }
 
-/* line 172, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 173, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .pull-right > .dropdown-menu { right: 0; left: auto; }
 
-/* line 185, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
-.dropup .caret, .navbar-fixed-bottom .dropdown .caret { border-top: 0; border-bottom: 4px solid; content: ""; }
-/* line 191, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+/* line 186, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret { border-top: 0; border-bottom: 4px dashed; border-bottom: 4px solid \9; content: ""; }
+/* line 193, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropup .dropdown-menu, .navbar-fixed-bottom .dropdown .dropdown-menu { top: auto; bottom: 100%; margin-bottom: 2px; }
 
-@media (min-width: 768px) { /* line 205, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+@media (min-width: 768px) { /* line 207, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
   .navbar-right .dropdown-menu { right: 0; left: auto; }
-  /* line 210, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
+  /* line 212, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
   .navbar-right .dropdown-menu-left { left: 0; right: auto; } }
 /* line 9, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav { margin-bottom: 0; padding-left: 0; list-style: none; }
@@ -1567,27 +1606,27 @@ tbody.collapse.in { display: table-row-group; }
 
 /* line 286, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-form { margin-left: -15px; margin-right: -15px; padding: 10px 15px; border-top: 1px solid transparent; border-bottom: 1px solid transparent; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1); margin-top: 8px; margin-bottom: 8px; }
-@media (min-width: 768px) { /* line 441, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+@media (min-width: 768px) { /* line 478, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .navbar-form .form-group { display: inline-block; margin-bottom: 0; vertical-align: middle; }
-  /* line 448, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 485, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .navbar-form .form-control { display: inline-block; width: auto; vertical-align: middle; }
-  /* line 455, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 492, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .navbar-form .form-control-static { display: inline-block; }
-  /* line 459, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 496, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .navbar-form .input-group { display: inline-table; vertical-align: middle; }
-  /* line 463, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .navbar-form .input-group .input-group-addon, .navbar-form .input-group .input-group-btn, .navbar-form .input-group .form-control { width: auto; }
-  /* line 471, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .navbar-form .input-group > .form-control { width: 100%; }
-  /* line 475, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .navbar-form .control-label { margin-bottom: 0; vertical-align: middle; }
-  /* line 482, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .navbar-form .radio, .navbar-form .checkbox { display: inline-block; margin-top: 0; margin-bottom: 0; vertical-align: middle; }
-  /* line 489, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .navbar-form .radio label, .navbar-form .checkbox label { padding-left: 0; }
-  /* line 493, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .navbar-form .radio input[type="radio"], .navbar-form .checkbox input[type="checkbox"] { position: relative; margin-left: 0; }
   /* line 500, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .input-group .input-group-addon, .navbar-form .input-group .input-group-btn, .navbar-form .input-group .form-control { width: auto; }
+  /* line 508, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .input-group > .form-control { width: 100%; }
+  /* line 512, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .control-label { margin-bottom: 0; vertical-align: middle; }
+  /* line 519, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .radio, .navbar-form .checkbox { display: inline-block; margin-top: 0; margin-bottom: 0; vertical-align: middle; }
+  /* line 526, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .radio label, .navbar-form .checkbox label { padding-left: 0; }
+  /* line 530, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
+  .navbar-form .radio input[type="radio"], .navbar-form .checkbox input[type="checkbox"] { position: relative; margin-left: 0; }
+  /* line 537, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .navbar-form .has-feedback .form-control-feedback { top: 0; } }
 @media (max-width: 767px) { /* line 298, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form .form-group { margin-bottom: 5px; }
@@ -1753,68 +1792,70 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: #337ab7
 .panel > .list-group .list-group-item, .panel > .panel-collapse > .list-group .list-group-item { border-width: 1px 0; border-radius: 0; }
 /* line 74, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .list-group:first-child .list-group-item:first-child, .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child { border-top: 0; border-top-right-radius: 3px; border-top-left-radius: 3px; }
-/* line 81, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 82, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .list-group:last-child .list-group-item:last-child, .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child { border-bottom: 0; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; }
+/* line 89, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+.panel > .panel-heading + .panel-collapse > .list-group .list-group-item:first-child { border-top-right-radius: 0; border-top-left-radius: 0; }
 
-/* line 90, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 96, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-heading + .list-group .list-group-item:first-child { border-top-width: 0; }
 
-/* line 94, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 100, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .list-group + .panel-footer { border-top-width: 0; }
 
-/* line 104, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 110, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table, .panel > .table-responsive > .table, .panel > .panel-collapse > .table { margin-bottom: 0; }
-/* line 109, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table caption, .panel > .table-responsive > .table caption, .panel > .panel-collapse > .table caption { padding-left: 15px; padding-right: 15px; }
 /* line 115, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table:first-child, .panel > .table-responsive:first-child > .table:first-child { border-top-right-radius: 3px; border-top-left-radius: 3px; }
+.panel > .table caption, .panel > .table-responsive > .table caption, .panel > .panel-collapse > .table caption { padding-left: 15px; padding-right: 15px; }
 /* line 121, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+.panel > .table:first-child, .panel > .table-responsive:first-child > .table:first-child { border-top-right-radius: 3px; border-top-left-radius: 3px; }
+/* line 127, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child, .panel > .table:first-child > tbody:first-child > tr:first-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child, .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child { border-top-left-radius: 3px; border-top-right-radius: 3px; }
-/* line 125, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 131, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child, .panel > .table:first-child > thead:first-child > tr:first-child th:first-child, .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child, .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child, .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child, .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child { border-top-left-radius: 3px; }
-/* line 129, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 135, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child td:last-child, .panel > .table:first-child > thead:first-child > tr:first-child th:last-child, .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child, .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child, .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child, .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child { border-top-right-radius: 3px; }
-/* line 137, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
-.panel > .table:last-child, .panel > .table-responsive:last-child > .table:last-child { border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; }
 /* line 143, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+.panel > .table:last-child, .panel > .table-responsive:last-child > .table:last-child { border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; }
+/* line 149, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child, .panel > .table:last-child > tfoot:last-child > tr:last-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child { border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; }
-/* line 147, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 153, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child, .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child, .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child, .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child { border-bottom-left-radius: 3px; }
-/* line 151, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 157, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child, .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child, .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child { border-bottom-right-radius: 3px; }
-/* line 158, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
-.panel > .panel-body + .table, .panel > .panel-body + .table-responsive, .panel > .table + .panel-body, .panel > .table-responsive + .panel-body { border-top: 1px solid #ddd; }
 /* line 164, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+.panel > .panel-body + .table, .panel > .panel-body + .table-responsive, .panel > .table + .panel-body, .panel > .table-responsive + .panel-body { border-top: 1px solid #ddd; }
+/* line 170, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table > tbody:first-child > tr:first-child th, .panel > .table > tbody:first-child > tr:first-child td { border-top: 0; }
-/* line 168, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 174, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table-bordered, .panel > .table-responsive > .table-bordered { border: 0; }
-/* line 175, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 181, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table-bordered > thead > tr > th:first-child, .panel > .table-bordered > thead > tr > td:first-child, .panel > .table-bordered > tbody > tr > th:first-child, .panel > .table-bordered > tbody > tr > td:first-child, .panel > .table-bordered > tfoot > tr > th:first-child, .panel > .table-bordered > tfoot > tr > td:first-child, .panel > .table-responsive > .table-bordered > thead > tr > th:first-child, .panel > .table-responsive > .table-bordered > thead > tr > td:first-child, .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child, .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child, .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child, .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child { border-left: 0; }
-/* line 179, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 185, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table-bordered > thead > tr > th:last-child, .panel > .table-bordered > thead > tr > td:last-child, .panel > .table-bordered > tbody > tr > th:last-child, .panel > .table-bordered > tbody > tr > td:last-child, .panel > .table-bordered > tfoot > tr > th:last-child, .panel > .table-bordered > tfoot > tr > td:last-child, .panel > .table-responsive > .table-bordered > thead > tr > th:last-child, .panel > .table-responsive > .table-bordered > thead > tr > td:last-child, .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child, .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child, .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child, .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child { border-right: 0; }
-/* line 188, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 194, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table-bordered > thead > tr:first-child > td, .panel > .table-bordered > thead > tr:first-child > th, .panel > .table-bordered > tbody > tr:first-child > td, .panel > .table-bordered > tbody > tr:first-child > th, .panel > .table-responsive > .table-bordered > thead > tr:first-child > td, .panel > .table-responsive > .table-bordered > thead > tr:first-child > th, .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td, .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th { border-bottom: 0; }
-/* line 197, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 203, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table-bordered > tbody > tr:last-child > td, .panel > .table-bordered > tbody > tr:last-child > th, .panel > .table-bordered > tfoot > tr:last-child > td, .panel > .table-bordered > tfoot > tr:last-child > th, .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td, .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th, .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td, .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th { border-bottom: 0; }
-/* line 204, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 210, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table-responsive { border: 0; margin-bottom: 0; }
 
-/* line 216, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 222, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group { margin-bottom: 20px; }
-/* line 220, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 226, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel { margin-bottom: 0; border-radius: 4px; }
-/* line 224, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 230, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel + .panel { margin-top: 5px; }
-/* line 229, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 235, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel-heading { border-bottom: 0; }
-/* line 232, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
-.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group { border-top: 1px solid #ddd; }
 /* line 238, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group { border-top: 1px solid #ddd; }
+/* line 244, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel-footer { border-top: 0; }
-/* line 240, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 246, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel-footer + .panel-collapse .panel-body { border-bottom: 1px solid #ddd; }
 
-/* line 248, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 254, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-default { border-color: #ddd; }
 /* line 6, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading { color: #333333; background-color: #f5f5f5; border-color: #ddd; }
@@ -1825,7 +1866,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: #337ab7
 /* line 20, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-footer + .panel-collapse > .panel-body { border-bottom-color: #ddd; }
 
-/* line 251, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 257, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary { border-color: #337ab7; }
 /* line 6, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading { color: #fff; background-color: #337ab7; border-color: #337ab7; }
@@ -1836,7 +1877,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: #337ab7
 /* line 20, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-footer + .panel-collapse > .panel-body { border-bottom-color: #337ab7; }
 
-/* line 254, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 260, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-success { border-color: #d6e9c6; }
 /* line 6, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-success > .panel-heading { color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6; }
@@ -1847,7 +1888,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: #337ab7
 /* line 20, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-success > .panel-footer + .panel-collapse > .panel-body { border-bottom-color: #d6e9c6; }
 
-/* line 257, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 263, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-info { border-color: #bce8f1; }
 /* line 6, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-info > .panel-heading { color: #31708f; background-color: #d9edf7; border-color: #bce8f1; }
@@ -1858,7 +1899,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: #337ab7
 /* line 20, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-info > .panel-footer + .panel-collapse > .panel-body { border-bottom-color: #bce8f1; }
 
-/* line 260, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 266, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-warning { border-color: #faebcc; }
 /* line 6, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-warning > .panel-heading { color: #8a6d3b; background-color: #fcf8e3; border-color: #faebcc; }
@@ -1869,7 +1910,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active { border-color: #337ab7
 /* line 20, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-warning > .panel-footer + .panel-collapse > .panel-body { border-bottom-color: #faebcc; }
 
-/* line 263, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
+/* line 269, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-danger { border-color: #ebccd1; }
 /* line 6, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-danger > .panel-heading { color: #a94442; background-color: #f2dede; border-color: #ebccd1; }
@@ -1937,7 +1978,11 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 .modal-backdrop.in { opacity: 0.5; filter: alpha(opacity=50); }
 
 /* line 79, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
-.modal-header { padding: 15px; border-bottom: 1px solid #e5e5e5; min-height: 16.42857px; }
+.modal-header { padding: 15px; border-bottom: 1px solid #e5e5e5; }
+/* line 14, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.modal-header:before, .modal-header:after { content: " "; display: table; }
+/* line 19, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.modal-header:after { clear: both; }
 
 /* line 85, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header .close { margin-top: -2px; }
@@ -1982,7 +2027,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 /* line 22, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-inner > .item > img, .carousel-inner > .item > a > img { display: block; max-width: 100%; height: auto; line-height: 1; }
 @media all and (transform-3d), (-webkit-transform-3d) { /* line 16, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
-  .carousel-inner > .item { -webkit-transition: -webkit-transform 0.6s ease-in-out; -moz-transition: -moz-transform 0.6s ease-in-out; -o-transition: -o-transform 0.6s ease-in-out; transition: transform 0.6s ease-in-out; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; backface-visibility: hidden; -webkit-perspective: 1000; -moz-perspective: 1000; perspective: 1000; }
+  .carousel-inner > .item { -webkit-transition: -webkit-transform 0.6s ease-in-out; -moz-transition: -moz-transform 0.6s ease-in-out; -o-transition: -o-transform 0.6s ease-in-out; transition: transform 0.6s ease-in-out; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; backface-visibility: hidden; -webkit-perspective: 1000px; -moz-perspective: 1000px; perspective: 1000px; }
   /* line 34, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-inner > .item.next, .carousel-inner > .item.active.right { -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0); left: 0; }
   /* line 39, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
@@ -2007,47 +2052,47 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 .carousel-inner > .active.right { left: 100%; }
 
 /* line 93, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
-.carousel-control { position: absolute; top: 0; left: 0; bottom: 0; width: 15%; opacity: 0.5; filter: alpha(opacity=50); font-size: 20px; color: #fff; text-align: center; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
-/* line 108, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+.carousel-control { position: absolute; top: 0; left: 0; bottom: 0; width: 15%; opacity: 0.5; filter: alpha(opacity=50); font-size: 20px; color: #fff; text-align: center; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); background-color: transparent; }
+/* line 109, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-control.left { background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%); background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); }
-/* line 111, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 112, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-control.right { left: auto; right: 0; background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%); background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); }
-/* line 118, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 119, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-control:hover, .carousel-control:focus { outline: 0; color: #fff; text-decoration: none; opacity: 0.9; filter: alpha(opacity=90); }
-/* line 127, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
-.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right { position: absolute; top: 50%; z-index: 5; display: inline-block; }
-/* line 136, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 128, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right { position: absolute; top: 50%; margin-top: -10px; z-index: 5; display: inline-block; }
+/* line 138, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left { left: 50%; margin-left: -10px; }
-/* line 141, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 143, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-control .icon-next, .carousel-control .glyphicon-chevron-right { right: 50%; margin-right: -10px; }
-/* line 146, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
-.carousel-control .icon-prev, .carousel-control .icon-next { width: 20px; height: 20px; margin-top: -10px; line-height: 1; font-family: serif; }
-/* line 157, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 148, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+.carousel-control .icon-prev, .carousel-control .icon-next { width: 20px; height: 20px; line-height: 1; font-family: serif; }
+/* line 158, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-control .icon-prev:before { content: '\2039'; }
-/* line 162, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 163, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-control .icon-next:before { content: '\203a'; }
 
-/* line 173, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 174, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-indicators { position: absolute; bottom: 10px; left: 50%; z-index: 15; width: 60%; margin-left: -30%; padding-left: 0; list-style: none; text-align: center; }
-/* line 184, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 185, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-indicators li { display: inline-block; width: 10px; height: 10px; margin: 1px; text-indent: -999px; border: 1px solid #fff; border-radius: 10px; cursor: pointer; background-color: #000 \9; background-color: transparent; }
-/* line 206, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 207, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-indicators .active { margin: 0; width: 12px; height: 12px; background-color: #fff; }
 
-/* line 217, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 218, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-caption { position: absolute; left: 15%; right: 15%; bottom: 20px; z-index: 10; padding-top: 20px; padding-bottom: 20px; color: #fff; text-align: center; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
-/* line 228, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+/* line 229, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-caption .btn { text-shadow: none; }
 
-@media screen and (min-width: 768px) { /* line 239, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
-  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next { width: 30px; height: 30px; margin-top: -15px; font-size: 30px; }
-  /* line 248, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
-  .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev { margin-left: -15px; }
-  /* line 252, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
-  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next { margin-right: -15px; }
-  /* line 259, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+@media screen and (min-width: 768px) { /* line 240, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next { width: 30px; height: 30px; margin-top: -10px; font-size: 30px; }
+  /* line 249, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+  .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev { margin-left: -10px; }
+  /* line 253, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next { margin-right: -10px; }
+  /* line 260, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-caption { left: 20%; right: 20%; padding-bottom: 30px; }
-  /* line 266, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
+  /* line 267, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-indicators { bottom: 20px; } }
 /* line 14, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .clearfix:before, .clearfix:after { content: " "; display: table; }
@@ -2094,75 +2139,75 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 /* line 18, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
 .visible-lg { display: none !important; }
 
-/* line 34, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+/* line 36, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
 .visible-xs-block, .visible-xs-inline, .visible-xs-inline-block, .visible-sm-block, .visible-sm-inline, .visible-sm-inline-block, .visible-md-block, .visible-md-inline, .visible-md-inline-block, .visible-lg-block, .visible-lg-inline, .visible-lg-inline-block { display: none !important; }
 
 @media (max-width: 767px) { /* line 7, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-xs { display: block !important; }
   /* line 10, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  table.visible-xs { display: table; }
+  table.visible-xs { display: table !important; }
   /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   tr.visible-xs { display: table-row !important; }
   /* line 12, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   th.visible-xs, td.visible-xs { display: table-cell !important; } }
-@media (max-width: 767px) { /* line 52, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (max-width: 767px) { /* line 54, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-block { display: block !important; } }
 
-@media (max-width: 767px) { /* line 57, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (max-width: 767px) { /* line 59, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-inline { display: inline !important; } }
 
-@media (max-width: 767px) { /* line 62, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (max-width: 767px) { /* line 64, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-inline-block { display: inline-block !important; } }
 
 @media (min-width: 768px) and (max-width: 991px) { /* line 7, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-sm { display: block !important; }
   /* line 10, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  table.visible-sm { display: table; }
+  table.visible-sm { display: table !important; }
   /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   tr.visible-sm { display: table-row !important; }
   /* line 12, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   th.visible-sm, td.visible-sm { display: table-cell !important; } }
-@media (min-width: 768px) and (max-width: 991px) { /* line 71, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (min-width: 768px) and (max-width: 991px) { /* line 73, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-block { display: block !important; } }
 
-@media (min-width: 768px) and (max-width: 991px) { /* line 76, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (min-width: 768px) and (max-width: 991px) { /* line 78, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline { display: inline !important; } }
 
-@media (min-width: 768px) and (max-width: 991px) { /* line 81, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (min-width: 768px) and (max-width: 991px) { /* line 83, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline-block { display: inline-block !important; } }
 
 @media (min-width: 992px) and (max-width: 1199px) { /* line 7, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-md { display: block !important; }
   /* line 10, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  table.visible-md { display: table; }
+  table.visible-md { display: table !important; }
   /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   tr.visible-md { display: table-row !important; }
   /* line 12, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   th.visible-md, td.visible-md { display: table-cell !important; } }
-@media (min-width: 992px) and (max-width: 1199px) { /* line 90, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (min-width: 992px) and (max-width: 1199px) { /* line 92, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-block { display: block !important; } }
 
-@media (min-width: 992px) and (max-width: 1199px) { /* line 95, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (min-width: 992px) and (max-width: 1199px) { /* line 97, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline { display: inline !important; } }
 
-@media (min-width: 992px) and (max-width: 1199px) { /* line 100, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (min-width: 992px) and (max-width: 1199px) { /* line 102, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline-block { display: inline-block !important; } }
 
 @media (min-width: 1200px) { /* line 7, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-lg { display: block !important; }
   /* line 10, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  table.visible-lg { display: table; }
+  table.visible-lg { display: table !important; }
   /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   tr.visible-lg { display: table-row !important; }
   /* line 12, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   th.visible-lg, td.visible-lg { display: table-cell !important; } }
-@media (min-width: 1200px) { /* line 109, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (min-width: 1200px) { /* line 111, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-block { display: block !important; } }
 
-@media (min-width: 1200px) { /* line 114, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (min-width: 1200px) { /* line 116, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline { display: inline !important; } }
 
-@media (min-width: 1200px) { /* line 119, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media (min-width: 1200px) { /* line 121, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline-block { display: inline-block !important; } }
 
 @media (max-width: 767px) { /* line 18, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
@@ -2179,488 +2224,482 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { /* line 7, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-print { display: block !important; }
   /* line 10, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  table.visible-print { display: table; }
+  table.visible-print { display: table !important; }
   /* line 11, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   tr.visible-print { display: table-row !important; }
   /* line 12, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   th.visible-print, td.visible-print { display: table-cell !important; } }
-/* line 153, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+/* line 155, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
 .visible-print-block { display: none !important; }
-@media print { /* line 153, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media print { /* line 155, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-print-block { display: block !important; } }
 
-/* line 160, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+/* line 162, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
 .visible-print-inline { display: none !important; }
-@media print { /* line 160, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media print { /* line 162, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-print-inline { display: inline !important; } }
 
-/* line 167, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+/* line 169, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
 .visible-print-inline-block { display: none !important; }
-@media print { /* line 167, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+@media print { /* line 169, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-print-inline-block { display: inline-block !important; } }
 
 @media print { /* line 18, ../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print { display: none !important; } }
-@font-face { font-family: 'MontserratBold'; src: url("/assets/fonts/montserrat-bold-webfont.eot"); src: url("/assets/fonts/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/montserrat-bold-webfont.woff2") format("woff2"), url("/assets/fonts/montserrat-bold-webfont.woff") format("woff"), url("/assets/fonts/montserrat-bold-webfont.ttf") format("truetype"), url("/assets/fonts/montserrat-bold-webfont.svg#montserratbold") format("svg"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'MontserratRegular'; src: url("/assets/fonts/montserrat-regular-webfont.eot"); src: url("/assets/fonts/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/montserrat-regular-webfont.woff2") format("woff2"), url("/assets/fonts/montserrat-regular-webfont.woff") format("woff"), url("/assets/fonts/montserrat-regular-webfont.ttf") format("truetype"), url("/assets/fonts/montserrat-regular-webfont.svg#montserratregular") format("svg"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'MontserratLight'; src: url("/assets/fonts/montserrat-light-webfont.eot"); src: url("/assets/fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/montserrat-light-webfont.woff2") format("woff2"), url("/assets/fonts/montserrat-light-webfont.woff") format("woff"), url("/assets/fonts/montserrat-light-webfont.ttf") format("truetype"), url("/assets/fonts/montserrat-light-webfont.svg#montserratlight") format("svg"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'MontserratHairLine'; src: url("/assets/fonts/montserrat-hairline-webfont.eot"); src: url("/assets/fonts/montserrat-hairline-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/montserrat-hairline-webfont.woff2") format("woff2"), url("/assets/fonts/montserrat-hairline-webfont.woff") format("woff"), url("/assets/fonts/montserrat-hairline-webfont.ttf") format("truetype"), url("/assets/fonts/montserrat-hairline-webfont.svg#montserrathairline") format("svg"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'RobotoCondensedRegular'; src: url("/assets/fonts/robotocondensed-regular-webfont.eot"); src: url("/assets/fonts/robotocondensed-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/robotocondensed-regular-webfont.woff2") format("woff2"), url("/assets/fonts/robotocondensed-regular-webfont.woff") format("woff"), url("/assets/fonts/robotocondensed-regular-webfont.ttf") format("truetype"), url("/assets/fonts/robotocondensed-regular-webfont.svg#roboto_condensedregular") format("svg"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'Aarti'; src: url("/assets/fonts/aarti-webfont.eot"); src: url("/assets/fonts/aarti-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/aarti-webfont.woff2") format("woff2"), url("/assets/fonts/aarti-webfont.woff") format("woff"), url("/assets/fonts/aarti-webfont.ttf") format("truetype"), url("/assets/fonts/aarti-webfont.svg#aartinormal") format("svg"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'deccan-rubyconf'; src: url("/assets/fonts/deccan-rubyconf.eot?-cnhev"); src: url("/assets/fonts/deccan-rubyconf.eot?#iefix-cnhev") format("embedded-opentype"), url("/assets/fonts/deccan-rubyconf.ttf?-cnhev") format("truetype"), url("/assets/fonts/deccan-rubyconf.woff?-cnhev") format("woff"), url("/assets/fonts/deccan-rubyconf.svg?-cnhev#deccan-rubyconf") format("svg"); font-weight: normal; font-style: normal; }
-/* line 84, ../sass/fonts.scss */
+@font-face { font-family: 'MontserratBold'; src: url("../fonts/montserrat-bold-webfont.eot"); src: url("../fonts/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat-bold-webfont.ttf") format("truetype"), url("../fonts/montserrat-bold-webfont.svg#montserratbold") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MontserratRegular'; src: url("../fonts/montserrat-regular-webfont.eot"); src: url("../fonts/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat-regular-webfont.ttf") format("truetype"), url("../fonts/montserrat-regular-webfont.svg#montserratregular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MontserratLight'; src: url("../fonts/montserrat-light-webfont.eot"); src: url("../fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff"), url("../fonts/montserrat-light-webfont.ttf") format("truetype"), url("../fonts/montserrat-light-webfont.svg#montserratlight") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MontserratHairLine'; src: url("../fonts/montserrat-hairline-webfont.eot"); src: url("../fonts/montserrat-hairline-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-hairline-webfont.woff2") format("woff2"), url("../fonts/montserrat-hairline-webfont.woff") format("woff"), url("../fonts/montserrat-hairline-webfont.ttf") format("truetype"), url("../fonts/montserrat-hairline-webfont.svg#montserrathairline") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'RobotoCondensedRegular'; src: url("../fonts/robotocondensed-regular-webfont.eot"); src: url("../fonts/robotocondensed-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/robotocondensed-regular-webfont.woff2") format("woff2"), url("../fonts/robotocondensed-regular-webfont.woff") format("woff"), url("../fonts/robotocondensed-regular-webfont.ttf") format("truetype"), url("../fonts/robotocondensed-regular-webfont.svg#roboto_condensedregular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Aarti'; src: url("../fonts/aarti-webfont.eot"); src: url("../fonts/aarti-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/aarti-webfont.woff2") format("woff2"), url("../fonts/aarti-webfont.woff") format("woff"), url("../fonts/aarti-webfont.ttf") format("truetype"), url("../fonts/aarti-webfont.svg#aartinormal") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'deccan-rubyconf'; src: url("../fonts/deccan-rubyconf.eot?-cnhev"); src: url("../fonts/deccan-rubyconf.eot?#iefix-cnhev") format("embedded-opentype"), url("../fonts/deccan-rubyconf.ttf?-cnhev") format("truetype"), url("../fonts/deccan-rubyconf.woff?-cnhev") format("woff"), url("../fonts/deccan-rubyconf.svg?-cnhev#deccan-rubyconf") format("svg"); font-weight: normal; font-style: normal; }
+/* line 84, ../sass/_fonts.scss */
 [class^="icon-"], [class*=" icon-"] { font-family: 'deccan-rubyconf'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
-/* line 98, ../sass/fonts.scss */
+/* line 98, ../sass/_fonts.scss */
 .icon-rubyconflogo:before { content: "\e600"; }
 
-/* line 101, ../sass/fonts.scss */
+/* line 101, ../sass/_fonts.scss */
 .icon-twitter:before { content: "\f099"; }
 
-/* line 104, ../sass/fonts.scss */
+/* line 104, ../sass/_fonts.scss */
 .icon-facebook:before { content: "\f09a"; }
 
-/* line 107, ../sass/fonts.scss */
+/* line 107, ../sass/_fonts.scss */
 .icon-envelope-o:before { content: "\f003"; }
 
-/* line 110, ../sass/fonts.scss */
+/* line 110, ../sass/_fonts.scss */
 .icon-map-marker:before { content: "\f041"; }
 
-/* line 113, ../sass/fonts.scss */
+/* line 113, ../sass/_fonts.scss */
 .icon-phone:before { content: "\f095"; }
 
-/* line 116, ../sass/fonts.scss */
+/* line 116, ../sass/_fonts.scss */
 .icon-smile-o:before { content: "\f118"; }
 
-/* line 119, ../sass/fonts.scss */
+/* line 119, ../sass/_fonts.scss */
 .icon-angle-left:before { content: "\f104"; }
 
-/* line 122, ../sass/fonts.scss */
+/* line 122, ../sass/_fonts.scss */
 .icon-angle-right:before { content: "\f105"; }
 
-/* line 125, ../sass/fonts.scss */
+/* line 125, ../sass/_fonts.scss */
 .icon-bars:before { content: "\f0c9"; }
 
-/* line 1, ../sass/global.scss */
+/* line 1, ../sass/_global.scss */
 h1, h2, h3 { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; font-weight: normal; margin: 0; }
 
-/* line 7, ../sass/global.scss */
+/* line 7, ../sass/_global.scss */
 h4, h5, h6 { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; font-weight: normal; margin: 0; }
 
-/* line 13, ../sass/global.scss */
+/* line 13, ../sass/_global.scss */
 h2 { font-size: 24px; }
 
-/* line 17, ../sass/global.scss */
+/* line 17, ../sass/_global.scss */
 h3, h4 { font-size: 18px; }
 
-/* line 21, ../sass/global.scss */
+/* line 21, ../sass/_global.scss */
 p { margin: 0; }
 
-/* line 25, ../sass/global.scss */
+/* line 25, ../sass/_global.scss */
 body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; font-size: 18px; color: #0A0B0B; background-color: #0A0B0B; }
 
-/* line 25, ../sass/global.scss */
-body.workshop { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; font-size: 18px; color: #0A0B0B; background-color: #FCFCFC; }
-
-/* line 32, ../sass/global.scss */
+/* line 32, ../sass/_global.scss */
 .navbar { position: fixed; margin-bottom: 0; min-height: 40px; border: none; right: 0; left: 0; background-color: rgba(10, 11, 11, 0.8); }
 
-/* line 42, ../sass/global.scss */
+/* line 42, ../sass/_global.scss */
 .logo-wrap-mobile { display: none; }
-/* line 45, ../sass/global.scss */
+/* line 45, ../sass/_global.scss */
 .logo-wrap-mobile a { font-size: 32px; color: #FCFCFC; }
-/* line 49, ../sass/global.scss */
+/* line 49, ../sass/_global.scss */
 .logo-wrap-mobile a:hover, .logo-wrap-mobile a:focus { text-decoration: none; }
 
-/* line 59, ../sass/global.scss */
-.navbar-nav li a { padding: 15px; font-size: 12px; font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; color: #E60000; text-transform: uppercase; }
-/* line 66, ../sass/global.scss */
+/* line 59, ../sass/_global.scss */
+.navbar-nav li a { padding: 15px; font-size: 12px; font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; color: #A01D25; text-transform: uppercase; }
+/* line 66, ../sass/_global.scss */
 .navbar-nav li a:hover, .navbar-nav li a:focus { background-color: transparent; color: #FCFCFC; }
 
-/* line 74, ../sass/global.scss */
+/* line 74, ../sass/_global.scss */
 .sec-default { margin: 0; }
 
-/* line 78, ../sass/global.scss */
+/* line 78, ../sass/_global.scss */
 .side-panel { position: relative; padding: 35px 10px; text-align: center; min-height: 400px; z-index: 1000; }
-/* line 85, ../sass/global.scss */
+/* line 85, ../sass/_global.scss */
 .side-panel.red { background-color: #A01D25; }
-/* line 89, ../sass/global.scss */
+/* line 89, ../sass/_global.scss */
 .side-panel.black { background-color: #0A0B0B; }
-/* line 94, ../sass/global.scss */
+/* line 94, ../sass/_global.scss */
 .side-panel h1 { color: #FCFCFC; }
 
-/* line 99, ../sass/global.scss */
+/* line 99, ../sass/_global.scss */
 .main-content { padding: 40px 70px; min-height: 400px; }
 
-/* line 104, ../sass/global.scss */
+/* line 104, ../sass/_global.scss */
 .logo-wrap { text-align: center; }
-/* line 107, ../sass/global.scss */
+/* line 107, ../sass/_global.scss */
 .logo-wrap a { font-size: 32px; color: #FCFCFC; }
-/* line 111, ../sass/global.scss */
+/* line 111, ../sass/_global.scss */
 .logo-wrap a:hover, .logo-wrap a:focus { text-decoration: none; }
 
-/* line 119, ../sass/global.scss */
-.sec-home .main-content { background: #0A0B0B url("/assets/images/bg-home.jpg") 100% 100% no-repeat; background-size: cover; text-align: right; padding: 150px 10px 10px; min-height: 660px; }
-/* line 127, ../sass/global.scss */
+/* line 119, ../sass/_global.scss */
+.sec-home .main-content { background: #0A0B0B url("../images/bg-home.jpg") 100% 100% no-repeat; background-size: cover; text-align: right; padding: 99px 10px 10px; min-height: 660px; }
+/* line 127, ../sass/_global.scss */
 .sec-home .side-panel { min-height: 660px; padding: 10px; }
-/* line 131, ../sass/global.scss */
+/* line 131, ../sass/_global.scss */
 .sec-home .side-panel .pati { bottom: 130px; }
 
-/* line 137, ../sass/global.scss */
+/* line 137, ../sass/_global.scss */
 .conf-title { font-family: "MontserratBold", Helvetica, Roboto, Arial, sans-serif; font-size: 72px; color: #FCFCFC; }
 
-/* line 143, ../sass/global.scss */
+/* line 143, ../sass/_global.scss */
 .conf-date { font-family: "MontserratBold", Helvetica, Roboto, Arial, sans-serif; font-size: 36px; color: #FCFCFC; margin-bottom: 50px; }
 
-/* line 150, ../sass/global.scss */
+/* line 150, ../sass/_global.scss */
 .conf-tagline { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; font-size: 36px; margin-bottom: 80px; color: #93A3A4; }
 
-/* line 157, ../sass/global.scss */
+/* line 157, ../sass/_global.scss */
 .btn-primary { background-color: #CC2026; font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; border-color: #CC2026; text-transform: uppercase; font-size: 24px; padding: 22px 59px; border-radius: 0; margin-bottom: 30px; }
-/* line 167, ../sass/global.scss */
+/* line 167, ../sass/_global.scss */
 .btn-primary:hover, .btn-primary:focus { background-color: #A01D25; border-color: #A01D25; }
 
-/* line 173, ../sass/global.scss */
+/* line 173, ../sass/_global.scss */
 .get-sponsors { font-size: 24px; color: #93A3A4; margin-bottom: 45px; }
-/* line 178, ../sass/global.scss */
+/* line 178, ../sass/_global.scss */
 .get-sponsors a { color: #CC2026; text-transform: uppercase; }
-/* line 182, ../sass/global.scss */
+/* line 182, ../sass/_global.scss */
 .get-sponsors a:hover, .get-sponsors a:focus { color: #A01D25; text-decoration: none; }
 
-/* line 189, ../sass/global.scss */
-.pati { position: absolute; bottom: 100px; left: 50%; -webkit-transform: translate(-50%, 0%);
-  transform: translate(-50%, 0%);
-}
-/* line 195, ../sass/global.scss */
+/* line 189, ../sass/_global.scss */
+.pati { position: absolute; bottom: 100px; left: 50%; transform: translate(-50%, 0%); }
+/* line 195, ../sass/_global.scss */
 .pati.registration-pati { width: 180px; height: 94px; }
-/* line 200, ../sass/global.scss */
+/* line 200, ../sass/_global.scss */
 .pati.learn_fun-pati, .pati.turn_right-pati { width: 180px; height: 106px; }
-/* line 205, ../sass/global.scss */
+/* line 205, ../sass/_global.scss */
 .pati.keep_quiet-pati { width: 152px; height: 106px; }
-/* line 210, ../sass/global.scss */
+/* line 210, ../sass/_global.scss */
 .pati.thankyou-pati { width: 200px; height: 120px; }
-/* line 215, ../sass/global.scss */
+/* line 215, ../sass/_global.scss */
 .pati.getintouch-pati { width: 200px; height: 106px; bottom: 80px; }
 
-/* line 222, ../sass/global.scss */
-.signboard-desc { position: absolute; width: 220px; font-size: 12px; color: #646B6B; left: 50%; bottom: 40px; transform: translate(-50%, 0%); -webkit-transform: translate(-50%, 0%); }
+/* line 222, ../sass/_global.scss */
+.signboard-desc { position: absolute; width: 220px; font-size: 12px; color: #646B6B; left: 50%; bottom: 40px; transform: translate(-50%, 0%); }
 
-/* line 234, ../sass/global.scss */
-.sec-about .main-content { position: relative; background: #0A0B0B url("/assets/images/bg-about.jpg") 100% 0 no-repeat; background-size: cover; min-height: 520px; }
-/* line 240, ../sass/global.scss */
+/* line 234, ../sass/_global.scss */
+.sec-about .main-content { position: relative; background: #0A0B0B url("../images/bg-about.jpg") 100% 0 no-repeat; background-size: cover; min-height: 520px; }
+/* line 240, ../sass/_global.scss */
 .sec-about .main-content h1 { color: #A01D25; border-bottom: 1px solid #93A3A4; padding-bottom: 28px; margin-bottom: 36px; }
-/* line 247, ../sass/global.scss */
+/* line 247, ../sass/_global.scss */
 .sec-about .main-content p { margin-bottom: 30px; line-height: 27px; }
-/* line 251, ../sass/global.scss */
+/* line 251, ../sass/_global.scss */
 .sec-about .main-content p strong { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; }
-/* line 255, ../sass/global.scss */
+/* line 255, ../sass/_global.scss */
 .sec-about .main-content p span { font-family: "Aarti", Helvetica, Roboto, Arial, sans-serif; font-size: 24px; }
-/* line 261, ../sass/global.scss */
+/* line 261, ../sass/_global.scss */
 .sec-about .main-content a { color: #CC2026; }
-/* line 264, ../sass/global.scss */
+/* line 264, ../sass/_global.scss */
 .sec-about .main-content a:hover, .sec-about .main-content a:focus { color: #A01D25; }
-/* line 270, ../sass/global.scss */
+/* line 270, ../sass/_global.scss */
 .sec-about .side-panel { min-height: 520px; }
-/* line 274, ../sass/global.scss */
+/* line 274, ../sass/_global.scss */
 .sec-about .dhamaal-wrap { position: absolute; bottom: 40px; }
-/* line 278, ../sass/global.scss */
+/* line 278, ../sass/_global.scss */
 .sec-about .dhamaal-wrap p { color: #646B6B; margin-bottom: 0; }
-/* line 282, ../sass/global.scss */
+/* line 282, ../sass/_global.scss */
 .sec-about .dhamaal-wrap p:first-child { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; }
 
-/* line 291, ../sass/global.scss */
-.sec-speakers .main-content { background: #0A0B0B url("/assets/images/bg-speakers.jpg") 100% 100% no-repeat; background-size: cover; min-height: 666px; padding: 30px 70px; }
-/* line 297, ../sass/global.scss */
+/* line 291, ../sass/_global.scss */
+.sec-speakers .main-content { background: #0A0B0B url("../images/bg-speakers.jpg") 100% 100% no-repeat; background-size: cover; min-height: 666px; padding: 30px 70px; }
+/* line 297, ../sass/_global.scss */
 .sec-speakers .main-content .thumbnail { width: 260px; padding-top: 30px; text-align: center; margin: 0 auto 20px; border-radius: 0; }
-/* line 304, ../sass/global.scss */
+/* line 304, ../sass/_global.scss */
 .sec-speakers .main-content .thumbnail .speakers { width: 200px; height: auto; margin-bottom: 10px; }
-/* line 310, ../sass/global.scss */
+/* line 310, ../sass/_global.scss */
 .sec-speakers .main-content .thumbnail h4 { margin-bottom: 5px; }
-/* line 314, ../sass/global.scss */
-.sec-speakers .main-content .thumbnail p { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; margin-bottom: 10px; padding-top: 10px; }
-/* line 323, ../sass/global.scss */
+/* line 314, ../sass/_global.scss */
+.sec-speakers .main-content .thumbnail p { font-family: "MontserratHairLine", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; margin-bottom: 10px; padding-top: 10px; }
+/* line 323, ../sass/_global.scss */
 .sec-speakers .main-content .caption { max-height: 300px; overflow: scroll; padding: 5px; }
-/* line 331, ../sass/global.scss */
+/* line 331, ../sass/_global.scss */
 .sec-speakers .main-content .socialmedia-link a { color: #CC2026; padding: 0 5px; font-size: 18px; }
-/* line 336, ../sass/global.scss */
+/* line 336, ../sass/_global.scss */
 .sec-speakers .main-content .socialmedia-link a:hover, .sec-speakers .main-content .socialmedia-link a:focus { color: #A01D25; text-decoration: none; }
-/* line 343, ../sass/global.scss */
+/* line 343, ../sass/_global.scss */
 .sec-speakers .main-content .direction-arrow { font-size: 36px; color: #646B6B; }
-/* line 347, ../sass/global.scss */
+/* line 347, ../sass/_global.scss */
 .sec-speakers .main-content .direction-arrow:hover, .sec-speakers .main-content .direction-arrow:focus { text-decoration: none; }
-/* line 353, ../sass/global.scss */
+/* line 353, ../sass/_global.scss */
 .sec-speakers .side-panel { min-height: 666px; }
-/* line 357, ../sass/global.scss */
+/* line 357, ../sass/_global.scss */
 .sec-speakers #carousel-mobile, .sec-speakers .carousel-mobile { display: none; }
 
-/* line 365, ../sass/global.scss */
-.sec-schedule .main-content { background: #0A0B0B url("/assets/images/bg-schedule.jpg") 100% 100% no-repeat; background-size: cover; min-height: 556px; }
-/* line 370, ../sass/global.scss */
+/* line 365, ../sass/_global.scss */
+.sec-schedule .main-content { background: #0A0B0B url("../images/bg-schedule.jpg") 100% 100% no-repeat; background-size: cover; min-height: 556px; }
+/* line 370, ../sass/_global.scss */
 .sec-schedule .main-content h1 { color: #A01D25; margin-bottom: 36px; }
-/* line 376, ../sass/global.scss */
+/* line 376, ../sass/_global.scss */
 .sec-schedule .side-panel { min-height: 556px; }
-/* line 380, ../sass/global.scss */
+/* line 380, ../sass/_global.scss */
 .sec-schedule .schedule-table { margin-bottom: 0; }
-/* line 385, ../sass/global.scss */
+/* line 385, ../sass/_global.scss */
 .sec-schedule .schedule-table tr td { position: relative; padding: 37px 0; border-top-color: #93A3A4; text-align: center; }
-/* line 391, ../sass/global.scss */
+/* line 391, ../sass/_global.scss */
 .sec-schedule .schedule-table tr td:first-child { text-align: left; }
-/* line 395, ../sass/global.scss */
+/* line 395, ../sass/_global.scss */
 .sec-schedule .schedule-table tr td:last-child { text-align: right; }
-/* line 399, ../sass/global.scss */
+/* line 399, ../sass/_global.scss */
 .sec-schedule .schedule-table tr td a { color: #CC2026; vertical-align: middle; margin-left: 18px; }
-
-/* custom edit */
-.sec-schedule .schedule-table tr td a.register5k-link { margin-left: 0px; }
-
-/* line 404, ../sass/global.scss */
+/* line 404, ../sass/_global.scss */
 .sec-schedule .schedule-table tr td a:hover, .sec-schedule .schedule-table tr td a:focus { color: #A01D25; text-decoration: none; }
-/* line 413, ../sass/global.scss */
+/* line 413, ../sass/_global.scss */
 .sec-schedule .talks-wrap { position: absolute; bottom: 24px; }
-/* line 417, ../sass/global.scss */
+/* line 417, ../sass/_global.scss */
 .sec-schedule .talks-wrap strong { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; }
-/* line 421, ../sass/global.scss */
+/* line 421, ../sass/_global.scss */
 .sec-schedule .talks-wrap p { font-size: 14px; padding-top: 10px; }
 
-/* line 430, ../sass/global.scss */
-.sec-sponsors .main-content { position: relative; background: #0A0B0B url("/assets/images/bg-sponsors.jpg") 100% 100% no-repeat; background-size: cover; min-height: 858px; }
-/* line 436, ../sass/global.scss */
+/* line 430, ../sass/_global.scss */
+.sec-sponsors .main-content { position: relative; background: #0A0B0B url("../images/bg-sponsors.jpg") 100% 100% no-repeat; background-size: cover; min-height: 858px; }
+/* line 436, ../sass/_global.scss */
 .sec-sponsors .main-content h2 { color: #93A3A4; margin-bottom: 15px; }
-/* line 441, ../sass/global.scss */
+/* line 441, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo { width: auto; height: 120px; margin-bottom: 30px; }
-.sec-sponsors .main-content .sponsors-logo-media { width: auto; height: 90px; margin-bottom: 30px; }
-.sec-sponsors .main-content .sponsors-logo-silver { width: auto; height: 70px; margin-bottom: 30px; }
-.sec-sponsors .main-content .sponsors-logo-student { width: auto; height: 60px; margin-bottom: 30px; }
-.sec-sponsors .main-content .sponsors-logo-workshop { width: auto;  height: 60px; margin-bottom: 30px; }
-
-/* line 448, ../sass/global.scss */
+/* line 448, ../sass/_global.scss */
 .sec-sponsors .side-panel { min-height: 858px; }
-/* line 452, ../sass/global.scss */
+/* line 452, ../sass/_global.scss */
 .sec-sponsors .partners-wrap { width: auto; height: 120px; background-color: #FCFCFC; }
-/* line 457, ../sass/global.scss */
-.sec-sponsors .partners-wrap .partners { position: relative; width: 25%; display: inline-block; float: left; text-align: center; top: 50%; transform: translate(0%, -50%); -webkit-transform: translate(0%, -50%); }
-/* line 466, ../sass/global.scss */
-.sec-sponsors .partners-wrap .partners p { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; color: #646B6B; text-transform: uppercase; padding-top: 5px; }
-/* line 475, ../sass/global.scss */
+/* line 457, ../sass/_global.scss */
+.sec-sponsors .partners-wrap .partners { position: relative; width: 33%; display: inline-block; float: left; text-align: center; top: 50%; transform: translate(0%, -50%); }
+/* line 466, ../sass/_global.scss */
+.sec-sponsors .partners-wrap .partners p { font-family: "MontserratHairLine", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; color: #646B6B; text-transform: uppercase; padding-top: 5px; }
+/* line 475, ../sass/_global.scss */
 .sec-sponsors .partners-wrap .partners-logo { display: block; width: auto; margin: 0 auto; }
-/* line 480, ../sass/global.scss */
+/* line 480, ../sass/_global.scss */
 .sec-sponsors .partners-wrap .partners-logo.partner1 { height: 60px; }
-.sec-sponsors .partners-wrap .partners-logo.partner1.codeignition { height: 36px; }
-.sec-sponsors .partners-wrap .partners-logo.partner1.ahmads-photography { height: 35px; width: 140px; }
-/* line 486, ../sass/global.scss */
+/* line 486, ../sass/_global.scss */
 .sec-sponsors .download-link { position: absolute; top: 40px; right: 70px; color: #CC2026; font-size: 24px; text-transform: uppercase; }
-/* line 494, ../sass/global.scss */
+/* line 494, ../sass/_global.scss */
 .sec-sponsors .download-link:hover, .sec-sponsors .download-link:focus { color: #A01D25; text-decoration: none; }
 
-/* line 504, ../sass/global.scss */
-.sec-contact .main-content { background: #0A0B0B url("/assets/images/bg-contact.jpg") 0 -100px no-repeat; background-size: cover; text-align: center; }
-/* line 510, ../sass/global.scss */
+/* line 504, ../sass/_global.scss */
+.sec-contact .main-content { background: #0A0B0B url("../images/bg-contact.jpg") 0 -100px no-repeat; background-size: cover; text-align: center; }
+/* line 510, ../sass/_global.scss */
 .sec-contact .conatct-wrap { text-align: center; }
-/* line 513, ../sass/global.scss */
+/* line 513, ../sass/_global.scss */
 .sec-contact .conatct-wrap p { width: 260px; margin: 0 auto 10px; padding-bottom: 15px; border-bottom: 1px solid #93A3A4; }
-/* line 519, ../sass/global.scss */
+/* line 519, ../sass/_global.scss */
 .sec-contact .conatct-wrap p i { color: #646B6B; vertical-align: middle; margin-right: 5px; }
-/* line 526, ../sass/global.scss */
+/* line 526, ../sass/_global.scss */
 .sec-contact .conatct-wrap .mail { color: #CC2026; margin-bottom: 30px; font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; }
-/* line 533, ../sass/global.scss */
+/* line 533, ../sass/_global.scss */
 .sec-contact .call-wrap { margin-bottom: 30px; }
-/* line 536, ../sass/global.scss */
+/* line 536, ../sass/_global.scss */
 .sec-contact .call-wrap span { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; color: #CC2026; margin-left: 50px; }
-/* line 541, ../sass/global.scss */
+/* line 541, ../sass/_global.scss */
 .sec-contact .call-wrap span strong { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; color: #646B6B; font-weight: normal; }
-/* line 549, ../sass/global.scss */
+/* line 549, ../sass/_global.scss */
 .sec-contact .email-wrap { margin-bottom: 30px; }
-/* line 555, ../sass/global.scss */
+/* line 555, ../sass/_global.scss */
 .sec-contact .conatct-wrap a { color: #CC2026; padding: 0 5px; }
-/* line 559, ../sass/global.scss */
+/* line 559, ../sass/_global.scss */
 .sec-contact .conatct-wrap a:hover, .sec-contact .conatct-wrap a:focus { color: #A01D25; text-decoration: none; }
-/* line 566, ../sass/global.scss */
-.sec-contact .footer-text { position: absolute; font-size: 12px; color: #646B6B; bottom: 20px; left: 50%; transform: translate(-50%, 0%); -webkit-transform: translate(-50%, 0%); }
-/* line 574, ../sass/global.scss */
+/* line 566, ../sass/_global.scss */
+.sec-contact .footer-text { position: absolute; font-size: 12px; color: #646B6B; bottom: 20px; left: 50%; transform: translate(-50%, 0%); }
+/* line 574, ../sass/_global.scss */
 .sec-contact .footer-text a { color: #CC2026; }
-/* line 577, ../sass/global.scss */
+/* line 577, ../sass/_global.scss */
 .sec-contact .footer-text a:hover, .sec-contact .footer-text a:focus { color: #A01D25; text-decoration: none; }
 
+/*CSS added on 08/05/2017*/
+/* line 588, ../sass/_global.scss */
+.content-wrap { display: flex; background-color: #fff; }
+/* line 593, ../sass/_global.scss */
+.content-wrap .side-panel h1 { position: absolute; left: 50%; transform: translate(-50%, 0%); top: 300px; }
+/* line 601, ../sass/_global.scss */
+.content-wrap .pati { top: 500px; }
+/* line 607, ../sass/_global.scss */
+.content-wrap.coc-wrap h1 { text-transform: uppercase; }
+/* line 610, ../sass/_global.scss */
+.content-wrap.coc-wrap p { font-size: 1.25em; line-height: 2; margin-bottom: 2em; margin-top: 1em; overflow-wrap: break-word; position: relative; color: #000; }
+
 /* Extra Small devices (smart phones, 480px and up) */
-@media (max-width: 767px) { /* line 4, ../sass/responsive.scss */
+@media (max-width: 767px) { /* line 4, ../sass/_responsive.scss */
   h1 { font-size: 30px; line-height: 40px; }
-  /* line 9, ../sass/responsive.scss */
+  /* line 9, ../sass/_responsive.scss */
   h2 { font-size: 20px; }
-  /* line 13, ../sass/responsive.scss */
+  /* line 13, ../sass/_responsive.scss */
   h3, h4 { font-size: 16px; }
-  /* line 17, ../sass/responsive.scss */
+  /* line 17, ../sass/_responsive.scss */
   body { font-size: 16px; }
-  /* line 21, ../sass/responsive.scss */
+  /* line 21, ../sass/_responsive.scss */
   .navbar { background-color: rgba(10, 11, 11, 0.8); z-index: 1002; }
-  /* line 26, ../sass/responsive.scss */
+  /* line 26, ../sass/_responsive.scss */
   .logo-wrap-mobile { display: block; position: absolute; left: 10px; top: 10px; }
-  /* line 33, ../sass/responsive.scss */
+  /* line 33, ../sass/_responsive.scss */
   .logo-wrap { display: none; }
-  /* line 37, ../sass/responsive.scss */
+  /* line 37, ../sass/_responsive.scss */
   .container-fluid > .navbar-header { margin: 0; padding: 9px 10px; }
-  /* line 42, ../sass/responsive.scss */
+  /* line 42, ../sass/_responsive.scss */
   .navbar-toggle { background-color: rgba(0, 0, 0, 0.5); padding: 5px 9px 3px 10px; color: #FCFCFC; margin: 0; }
-  /* line 49, ../sass/responsive.scss */
+  /* line 49, ../sass/_responsive.scss */
   .container-fluid > .navbar-collapse { margin: 0; border-top: none; padding: 0 10px; box-shadow: none; background-color: transparent; text-align: center; }
-  /* line 58, ../sass/responsive.scss */
+  /* line 58, ../sass/_responsive.scss */
   .container-fluid { padding: 0; }
-  /* line 62, ../sass/responsive.scss */
+  /* line 62, ../sass/_responsive.scss */
   .side-panel, .sec-home .side-panel, .sec-speakers .side-panel, .sec-schedule .side-panel, .sec-sponsors .side-panel { min-height: 240px; padding: 15px; }
-  /* line 67, ../sass/responsive.scss */
+  /* line 67, ../sass/_responsive.scss */
   .main-content { padding: 15px; min-height: inherit; }
-  /* line 72, ../sass/responsive.scss */
+  /* line 72, ../sass/_responsive.scss */
   .pati { bottom: 30px; }
-  /* line 76, ../sass/responsive.scss */
+  /* line 76, ../sass/_responsive.scss */
   .sec-home .side-panel .pati { bottom: 30px; }
-  /* line 80, ../sass/responsive.scss */
+  /* line 80, ../sass/_responsive.scss */
   .sec-home .main-content { text-align: center; min-height: inherit; padding: 50px 15px 15px; }
-  /* line 86, ../sass/responsive.scss */
+  /* line 86, ../sass/_responsive.scss */
   .conf-title { font-size: 24px; }
-  /* line 90, ../sass/responsive.scss */
+  /* line 90, ../sass/_responsive.scss */
   .conf-date { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; font-size: 18px; margin-bottom: 40px; }
-  /* line 96, ../sass/responsive.scss */
+  /* line 96, ../sass/_responsive.scss */
   .conf-tagline { font-size: 20px; margin-bottom: 40px; }
-  /* line 101, ../sass/responsive.scss */
+  /* line 101, ../sass/_responsive.scss */
   .btn-primary { padding: 17px 44px; font-size: 18px; }
-  /* line 106, ../sass/responsive.scss */
+  /* line 106, ../sass/_responsive.scss */
   .get-sponsors { font-size: 16px; }
-  /* line 110, ../sass/responsive.scss */
+  /* line 110, ../sass/_responsive.scss */
   .sec-about .side-panel { min-height: 320px; padding: 15px; }
-  /* line 115, ../sass/responsive.scss */
+  /* line 115, ../sass/_responsive.scss */
   .pati.learn_fun-pati { bottom: 110px; }
-  /* line 119, ../sass/responsive.scss */
+  /* line 119, ../sass/_responsive.scss */
   .sec-about .main-content h1 { padding-bottom: 20px; margin-bottom: 20px; }
-  /* line 124, ../sass/responsive.scss */
+  /* line 124, ../sass/_responsive.scss */
   .sec-about .dhamaal-wrap { position: inherit; bottom: inherit; margin-bottom: 15px; }
-  /* line 130, ../sass/responsive.scss */
+  /* line 130, ../sass/_responsive.scss */
   .sec-speakers .main-content { padding: 15px; min-height: inherit; }
-  /* line 135, ../sass/responsive.scss */
+  /* line 135, ../sass/_responsive.scss */
   #carousel-desktop, .carousel-desktop { display: none; }
-  /* line 139, ../sass/responsive.scss */
+  /* line 139, ../sass/_responsive.scss */
   .sec-speakers #carousel-mobile, .sec-speakers .carousel-mobile { display: block; }
-  /* line 143, ../sass/responsive.scss */
+  /* line 143, ../sass/_responsive.scss */
   .sec-schedule .main-content h1 { margin-bottom: 20px; }
-  /* line 147, ../sass/responsive.scss */
+  /* line 147, ../sass/_responsive.scss */
   .sec-schedule .schedule-table { font-size: 14px; }
-  /* line 151, ../sass/responsive.scss */
+  /* line 151, ../sass/_responsive.scss */
   .sec-schedule .talks-wrap { position: inherit; bottom: inherit; }
-  /* line 156, ../sass/responsive.scss */
+  /* line 156, ../sass/_responsive.scss */
   .sec-schedule .schedule-table tr td { padding: 15px 0; }
-  /* line 160, ../sass/responsive.scss */
+  /* line 160, ../sass/_responsive.scss */
   .sec-schedule .schedule-table tr td a { display: block; margin: 10px 0 0; }
-  /* line 165, ../sass/responsive.scss */
+  /* line 165, ../sass/_responsive.scss */
   .sec-sponsors .download-link { top: 15px; right: 15px; font-size: 14px; }
-  /* line 171, ../sass/responsive.scss */
+  /* line 171, ../sass/_responsive.scss */
   .sec-sponsors .partners-wrap { padding: 15px; height: auto; margin-bottom: 20px; }
-  /* line 177, ../sass/responsive.scss */
+  /* line 177, ../sass/_responsive.scss */
   .sec-sponsors .partners-wrap .partners { width: auto; display: block; float: inherit; top: inherit; left: 50%; transform: translate(-50%, 0%); }
-  /* line 187, ../sass/responsive.scss */
+  /* line 187, ../sass/_responsive.scss */
   .sec-sponsors .partners-wrap .partners:last-child p { margin-bottom: 0; }
-  /* line 193, ../sass/responsive.scss */
+  /* line 193, ../sass/_responsive.scss */
   .sec-sponsors .partners-wrap .partners p { margin-bottom: 30px; }
-  /* line 197, ../sass/responsive.scss */
+  /* line 197, ../sass/_responsive.scss */
   .pati.getintouch-pati { bottom: 30px; }
-  /* line 201, ../sass/responsive.scss */
-  .sec-contact .main-content { background: #0A0B0B url("/assets/images/bg-contact.jpg") 50% 0 no-repeat; background-size: cover; }
-  /* line 206, ../sass/responsive.scss */
+  /* line 201, ../sass/_responsive.scss */
+  .sec-contact .main-content { background: #0A0B0B url("../images/bg-contact.jpg") 50% 0 no-repeat; background-size: cover; }
+  /* line 206, ../sass/_responsive.scss */
   .sec-contact .conatct-wrap { margin-bottom: 30px; }
-  /* line 210, ../sass/responsive.scss */
+  /* line 210, ../sass/_responsive.scss */
   .sec-contact .conatct-wrap p { margin: 0 auto 10px; padding-bottom: 5px; }
-  /* line 215, ../sass/responsive.scss */
+  /* line 215, ../sass/_responsive.scss */
   .sec-contact .call-wrap span { display: block; margin: 0 0 5px; }
-  /* line 220, ../sass/responsive.scss */
+  /* line 220, ../sass/_responsive.scss */
   .sec-contact .footer-text { position: inherit; left: inherit; bottom: inherit; transform: translate(0%, 0%); } }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) { /* line 233, ../sass/responsive.scss */
+@media (min-width: 768px) and (max-width: 991px) { /* line 233, ../sass/_responsive.scss */
   h1 { font-size: 28px; line-height: 36px; }
-  /* line 238, ../sass/responsive.scss */
+  /* line 238, ../sass/_responsive.scss */
   h2 { font-size: 20px; }
-  /* line 242, ../sass/responsive.scss */
+  /* line 242, ../sass/_responsive.scss */
   h3, h4 { font-size: 16px; }
-  /* line 246, ../sass/responsive.scss */
+  /* line 246, ../sass/_responsive.scss */
   body { font-size: 16px; }
-  /* line 250, ../sass/responsive.scss */
+  /* line 250, ../sass/_responsive.scss */
   .navbar-nav li a { padding: 15px 10px; }
-  /* line 254, ../sass/responsive.scss */
+  /* line 254, ../sass/_responsive.scss */
   .sec-home .side-panel .container-fluid { padding: 0; }
-  /* line 258, ../sass/responsive.scss */
+  /* line 258, ../sass/_responsive.scss */
   .pati.registration-pati, .pati.learn_fun-pati, .pati.turn_right-pati, .pati.keep_quiet-pati, .pati.thankyou-pati, .pati.getintouch-pati { width: 160px; height: auto; }
-  /* line 263, ../sass/responsive.scss */
+  /* line 263, ../sass/_responsive.scss */
   .conf-title { font-size: 42px; }
-  /* line 267, ../sass/responsive.scss */
+  /* line 267, ../sass/_responsive.scss */
   .conf-date { font-size: 30px; }
-  /* line 271, ../sass/responsive.scss */
+  /* line 271, ../sass/_responsive.scss */
   .conf-tagline { font-size: 26px; }
-  /* line 275, ../sass/responsive.scss */
+  /* line 275, ../sass/_responsive.scss */
   .btn-primary { font-size: 22px; padding: 18px 48px; }
-  /* line 280, ../sass/responsive.scss */
+  /* line 280, ../sass/_responsive.scss */
   .main-content { padding: 40px; min-height: inherit; }
-  /* line 285, ../sass/responsive.scss */
+  /* line 285, ../sass/_responsive.scss */
   .sec-about .main-content h1 { padding-bottom: 15px; margin-bottom: 15px; }
-  /* line 290, ../sass/responsive.scss */
+  /* line 290, ../sass/_responsive.scss */
   .sec-about .main-content p { margin-bottom: 20px; }
-  /* line 294, ../sass/responsive.scss */
+  /* line 294, ../sass/_responsive.scss */
   .sec-about .dhamaal-wrap p { margin-bottom: 0; }
-  /* line 298, ../sass/responsive.scss */
+  /* line 298, ../sass/_responsive.scss */
   .pati.learn_fun-pati { bottom: 150px; }
-  /* line 302, ../sass/responsive.scss */
+  /* line 302, ../sass/_responsive.scss */
   .signboard-desc { width: 100%; left: 0; transform: translate(0%, 0%); padding: 15px; }
-  /* line 309, ../sass/responsive.scss */
+  /* line 309, ../sass/_responsive.scss */
   .sec-speakers .main-content, .sec-schedule .main-content { padding: 30px; }
-  /* line 313, ../sass/responsive.scss */
+  /* line 313, ../sass/_responsive.scss */
   .sec-speakers .main-content .thumbnail { width: 100%; padding-top: 5px; }
-  /* line 318, ../sass/responsive.scss */
+  /* line 318, ../sass/_responsive.scss */
   .sec-speakers .main-content .caption { max-height: 360px; }
-  /* line 322, ../sass/responsive.scss */
+  /* line 322, ../sass/_responsive.scss */
   .sec-schedule .schedule-table tr td { padding: 20px 0; }
-  /* line 326, ../sass/responsive.scss */
+  /* line 326, ../sass/_responsive.scss */
   .sec-schedule .talks-wrap { position: inherit; bottom: inherit; }
-  /* line 331, ../sass/responsive.scss */
+  /* line 331, ../sass/_responsive.scss */
   .sec-sponsors .download-link { font-size: 18px; right: 40px; }
-  /* line 336, ../sass/responsive.scss */
+  /* line 336, ../sass/_responsive.scss */
   .sec-sponsors .partners-wrap { padding: 10px; }
-  /* line 340, ../sass/responsive.scss */
+  /* line 340, ../sass/_responsive.scss */
   .sec-sponsors .partners-wrap .partners-logo.partner1 { height: 50px; }
-  /* line 344, ../sass/responsive.scss */
-  .sec-contact .main-content { background: #0A0B0B url("/assets/images/bg-contact.jpg") 100% 100% no-repeat; background-size: cover; padding: 30px; }
-  /* line 350, ../sass/responsive.scss */
+  /* line 344, ../sass/_responsive.scss */
+  .sec-contact .main-content { background: #0A0B0B url("../images/bg-contact.jpg") 100% 100% no-repeat; background-size: cover; padding: 30px; }
+  /* line 350, ../sass/_responsive.scss */
   .sec-contact .conatct-wrap p { margin-bottom: 10px; padding-bottom: 5px; }
-  /* line 355, ../sass/responsive.scss */
+  /* line 355, ../sass/_responsive.scss */
   .sec-contact .call-wrap span { margin: 0 0 5px; display: block; }
-  /* line 360, ../sass/responsive.scss */
+  /* line 360, ../sass/_responsive.scss */
   .sec-contact .connect-wrap { margin-bottom: 30px; }
-  /* line 364, ../sass/responsive.scss */
+  /* line 364, ../sass/_responsive.scss */
   .sec-contact .footer-text { position: inherit; left: inherit; bottom: inherit; transform: translate(0%, 0%); padding: 0; }
-  /* line 372, ../sass/responsive.scss */
+  /* line 372, ../sass/_responsive.scss */
   .pati.getintouch-pati { bottom: 30px; } }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) { /* line 382, ../sass/responsive.scss */
+@media (min-width: 992px) and (max-width: 1199px) { /* line 382, ../sass/_responsive.scss */
   .main-content, .sec-speakers .main-content { padding: 40px; }
-  /* line 386, ../sass/responsive.scss */
+  /* line 386, ../sass/_responsive.scss */
   .sec-home .side-panel .pati { bottom: 100px; }
-  /* line 390, ../sass/responsive.scss */
+  /* line 390, ../sass/_responsive.scss */
   .conf-title { font-size: 60px; }
-  /* line 394, ../sass/responsive.scss */
+  /* line 394, ../sass/_responsive.scss */
   .conf-date, .conf-tagline { font-size: 30px; }
-  /* line 398, ../sass/responsive.scss */
+  /* line 398, ../sass/_responsive.scss */
   .sec-about .main-content h1 { font-size: 34px; }
-  /* line 402, ../sass/responsive.scss */
+  /* line 402, ../sass/_responsive.scss */
   .sec-about .dhamaal-wrap { margin-right: 40px; }
-  /* line 406, ../sass/responsive.scss */
+  /* line 406, ../sass/_responsive.scss */
   .sec-speakers .main-content .thumbnail { width: 100%; padding-top: 5px; }
-  /* line 411, ../sass/responsive.scss */
+  /* line 411, ../sass/_responsive.scss */
   .sec-speakers .main-content { padding: 25px 40px; }
-  /* line 415, ../sass/responsive.scss */
+  /* line 415, ../sass/_responsive.scss */
   .sec-speakers .main-content .caption { max-height: 320px; }
-  /* line 419, ../sass/responsive.scss */
+  /* line 419, ../sass/_responsive.scss */
   .sec-sponsors .download-link { right: 40px; font-size: 20px; }
-  /* line 424, ../sass/responsive.scss */
+  /* line 424, ../sass/_responsive.scss */
   .sec-sponsors .partners-wrap { padding: 20px; }
-  /* line 428, ../sass/responsive.scss */
+  /* line 428, ../sass/_responsive.scss */
   .sec-contact .main-content { padding: 40px 30px; }
-  /* line 432, ../sass/responsive.scss */
+  /* line 432, ../sass/_responsive.scss */
   .sec-contact .call-wrap span { margin-left: 20px; }
-  /* line 436, ../sass/responsive.scss */
+  /* line 436, ../sass/_responsive.scss */
   .sec-contact .footer-text { left: 30px; right: 30px; transform: translate(0%, 0%); } }
-
-.text-18 { font-size: 18px; }
