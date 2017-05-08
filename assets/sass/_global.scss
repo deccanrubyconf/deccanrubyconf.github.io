@@ -638,7 +638,13 @@ body{
     font-size:1em;
     line-height:1;
     margin-top:2em;
-    font-weight:bold
+    font-weight:bold;
+    a{
+      color:#ED2626;
+      border:1px solid;
+      padding:1rem 2rem;
+      border-radius:5px;
+    }
   }
   
   .coc{
