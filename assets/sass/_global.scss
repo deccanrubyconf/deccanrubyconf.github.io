@@ -173,8 +173,8 @@ body{
 .get-sponsors{
   font-size: 24px;
   color: $light-gray;
-  margin-bottom: 45px;
-
+  //margin-bottom: 45px;
+  margin: auto 1em;
   a{
     color: $red;
     text-transform: uppercase;
@@ -601,6 +601,9 @@ body{
   .inner-content{
     color:#ED2626;
     margin:3em;
+    h3{
+      margin:auto 1em;
+    }
   }
   
   .pati{
