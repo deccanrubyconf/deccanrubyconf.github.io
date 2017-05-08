@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
-ruby '2.4.1'
+ruby '2.3.1'
 
 gem 'github-pages'
+
+gem 'compass'
