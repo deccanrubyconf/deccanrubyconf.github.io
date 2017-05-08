@@ -2516,11 +2516,25 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 593, ../sass/_global.scss */
 .content-wrap .side-panel h1 { position: absolute; left: 50%; transform: translate(-50%, 0%); top: 300px; }
 /* line 601, ../sass/_global.scss */
+.content-wrap .inner-content { color: #ED2626; margin: 3em; }
+/* line 606, ../sass/_global.scss */
 .content-wrap .pati { top: 500px; }
-/* line 607, ../sass/_global.scss */
-.content-wrap.coc-wrap h1 { text-transform: uppercase; }
 /* line 610, ../sass/_global.scss */
-.content-wrap.coc-wrap p { font-size: 1.25em; line-height: 2; margin-bottom: 2em; margin-top: 1em; overflow-wrap: break-word; position: relative; color: #000; }
+.content-wrap .blockquote { font-size: 1.25em; line-height: 2; margin-bottom: 2em; margin-top: 1em; overflow-wrap: break-word; position: relative; color: #000; }
+/* line 620, ../sass/_global.scss */
+.content-wrap .sub-heading { font-size: 2em; line-height: 2.5; color: #ED2626; }
+/* line 625, ../sass/_global.scss */
+.content-wrap span { color: #ED2626; font-size: 1.25em; line-height: 1; margin: 1em; }
+/* line 632, ../sass/_global.scss */
+.content-wrap p { color: #2E2E2E; margin: 1em; }
+/* line 637, ../sass/_global.scss */
+.content-wrap .btn-register { font-size: 1em; line-height: 1; margin-top: 2em; font-weight: bold; }
+/* line 645, ../sass/_global.scss */
+.content-wrap .coc li { color: #000; }
+/* line 651, ../sass/_global.scss */
+.content-wrap.coc-wrap .main-heading { color: #ED2626; }
+/* line 654, ../sass/_global.scss */
+.content-wrap.coc-wrap h1 { text-transform: uppercase; }
 
 /* Extra Small devices (smart phones, 480px and up) */
 @media (max-width: 767px) { /* line 4, ../sass/_responsive.scss */
