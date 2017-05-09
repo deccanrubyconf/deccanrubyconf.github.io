@@ -2541,44 +2541,53 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .content-wrap.coc-wrap h1 { text-transform: uppercase; }
 
 /* line 670, ../sass/_global.scss */
-.sec-sponsors .main-content .sponsors-logo-media { width: auto; margin-bottom: 30px; }
+.sec-sponsors .main-content .sponsors-logo-media { margin-bottom: 30px; }
 
-/* line 676, ../sass/_global.scss */
+/* line 675, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo-silver { width: auto; height: 70px; margin-bottom: 30px; }
-/* line 681, ../sass/_global.scss */
+/* line 680, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo-student { width: auto; height: 60px; margin-bottom: 30px; }
-/* line 686, ../sass/_global.scss */
+/* line 685, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo-workshop { width: auto; height: 60px; margin-bottom: 30px; }
 
-/* line 693, ../sass/_global.scss */
+/* line 692, ../sass/_global.scss */
 .white-image-bg { background-color: white; padding: 2ex; }
 
-/* line 698, ../sass/_global.scss */
+/* line 697, ../sass/_global.scss */
 .text-18 { font-size: 18px; }
 
-/* line 713, ../sass/_global.scss */
+/* line 712, ../sass/_global.scss */
 body.workshop { font-family: MontserratLight, Helvetica, Roboto, Arial, sans-serif; font-size: 18px; color: #0a0b0b; background-color: #fcfcfc; }
 
-/* line 721, ../sass/_global.scss */
+/* line 720, ../sass/_global.scss */
 .modal { text-align: center; padding: 0 !important; }
 
-/* line 726, ../sass/_global.scss */
+/* line 725, ../sass/_global.scss */
 .modal:before { content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -4px; }
 
-/* line 734, ../sass/_global.scss */
+/* line 733, ../sass/_global.scss */
 .modal-dialog { display: inline-block; text-align: left; vertical-align: middle; }
 
-/* line 740, ../sass/_global.scss */
+/* line 739, ../sass/_global.scss */
 .modal-title { text-align: center; color: white; background-color: #A01D25; }
 
-/* line 746, ../sass/_global.scss */
+/* line 745, ../sass/_global.scss */
 .modal-title-small { text-align: center; color: white; }
 
-/* line 751, ../sass/_global.scss */
+/* line 750, ../sass/_global.scss */
 .modal-header { background-color: #A01D25; }
 
-/* line 756, ../sass/_global.scss */
-.sponsors-heading { color: white; font-weight: bold; margin-bottom: 20px; }
+/* line 755, ../sass/_global.scss */
+.sponsors-heading { color: white; font-weight: bold; margin-bottom: 20px; margin-top: 20px; }
+
+/* line 762, ../sass/_global.scss */
+.sponsors-logo.img-responsive { display: inline; }
+
+/* line 766, ../sass/_global.scss */
+.sponsors-logo.img.center { display: block; margin-left: auto; margin-right: auto; margin-bottom: 100px; }
+
+/* line 774, ../sass/_global.scss */
+.sponsors-logo-media.img-responsive { display: inline; margin-right: 300px; }
 
 /* Extra Small devices (smart phones, 480px and up) */
 @media (max-width: 767px) { /* line 4, ../sass/_responsive.scss */

@@ -668,7 +668,6 @@ body{
 }
 
 .sec-sponsors .main-content .sponsors-logo-media {
-  width: auto;
   margin-bottom: 30px;
 }
 
@@ -757,4 +756,22 @@ body.workshop {
   color: $white;
   font-weight: bold;
   margin-bottom:20px;
+  margin-top: 20px;
+}
+
+.sponsors-logo.img-responsive {
+  display: inline;
+}
+
+.sponsors-logo.img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+
+.sponsors-logo-media.img-responsive {
+  display: inline;
+  margin-right: 300px;
 }
