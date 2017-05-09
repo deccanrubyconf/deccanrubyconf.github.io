@@ -2346,7 +2346,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 127, ../sass/_global.scss */
 .sec-home .side-panel { min-height: 660px; padding: 10px; }
 /* line 131, ../sass/_global.scss */
-.sec-home .side-panel .pati { top: 500px; }
+.sec-home .side-panel .pati { bottom: 130px; }
 
 /* line 137, ../sass/_global.scss */
 .conf-title { font-family: "MontserratBold", Helvetica, Roboto, Arial, sans-serif; font-size: 72px; color: #FCFCFC; }
@@ -2370,7 +2370,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .get-sponsors a:hover, .get-sponsors a:focus { color: #A01D25; text-decoration: none; }
 
 /* line 189, ../sass/_global.scss */
-.pati { position: absolute; top: 200px; left: 50%; transform: translate(-50%, 0%); }
+.pati { position: absolute; bottom: 100px; left: 50%; transform: translate(-50%, 0%); }
 /* line 195, ../sass/_global.scss */
 .pati.registration-pati { width: 180px; height: 94px; }
 /* line 200, ../sass/_global.scss */
