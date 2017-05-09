@@ -451,7 +451,6 @@ body{
   .partners-wrap{
     width: auto;
     height: 120px;
-    background-color: $alm-white;
 
     .partners{
       position: relative;
@@ -464,8 +463,8 @@ body{
 
       p{
         font-family: $font-MontserratHairLine;
-        font-size: 12px;
-        color: $mid-gray;
+        font-size: 16px;
+        color: $white;
         text-transform: uppercase;
         padding-top: 5px;
       }
@@ -689,9 +688,6 @@ body{
     margin-bottom: 30px;
   }
 }
-
-//colors
-$white: white;
 
 .white-image-bg {
   background-color: $white;
