@@ -2463,119 +2463,122 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 436, ../sass/_global.scss */
 .sec-sponsors .main-content h2 { color: #93A3A4; margin-bottom: 15px; }
 /* line 441, ../sass/_global.scss */
-.sec-sponsors .main-content .sponsors-logo { width: auto; height: 120px; margin-bottom: 30px; }
-/* line 448, ../sass/_global.scss */
+.sec-sponsors .main-content .sponsors-logo { width: auto; margin-bottom: 30px; }
+/* line 447, ../sass/_global.scss */
 .sec-sponsors .side-panel { min-height: 858px; }
-/* line 452, ../sass/_global.scss */
+/* line 451, ../sass/_global.scss */
 .sec-sponsors .partners-wrap { width: auto; height: 120px; background-color: #FCFCFC; }
-/* line 457, ../sass/_global.scss */
+/* line 456, ../sass/_global.scss */
 .sec-sponsors .partners-wrap .partners { position: relative; width: 33%; display: inline-block; float: left; text-align: center; top: 50%; transform: translate(0%, -50%); }
-/* line 466, ../sass/_global.scss */
+/* line 465, ../sass/_global.scss */
 .sec-sponsors .partners-wrap .partners p { font-family: "MontserratHairLine", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; color: #646B6B; text-transform: uppercase; padding-top: 5px; }
-/* line 475, ../sass/_global.scss */
+/* line 474, ../sass/_global.scss */
 .sec-sponsors .partners-wrap .partners-logo { display: block; width: auto; margin: 0 auto; }
-/* line 480, ../sass/_global.scss */
+/* line 479, ../sass/_global.scss */
 .sec-sponsors .partners-wrap .partners-logo.partner1 { height: 60px; }
-/* line 486, ../sass/_global.scss */
+/* line 485, ../sass/_global.scss */
 .sec-sponsors .download-link { position: absolute; top: 40px; right: 70px; color: #CC2026; font-size: 24px; text-transform: uppercase; }
-/* line 494, ../sass/_global.scss */
+/* line 493, ../sass/_global.scss */
 .sec-sponsors .download-link:hover, .sec-sponsors .download-link:focus { color: #A01D25; text-decoration: none; }
 
-/* line 504, ../sass/_global.scss */
+/* line 503, ../sass/_global.scss */
 .sec-contact .main-content { background: #0A0B0B url("../images/bg-contact.jpg") 0 -100px no-repeat; background-size: cover; text-align: center; }
-/* line 510, ../sass/_global.scss */
+/* line 509, ../sass/_global.scss */
 .sec-contact .conatct-wrap { text-align: center; }
-/* line 513, ../sass/_global.scss */
+/* line 512, ../sass/_global.scss */
 .sec-contact .conatct-wrap p { width: 260px; margin: 0 auto 10px; padding-bottom: 15px; border-bottom: 1px solid #93A3A4; }
-/* line 519, ../sass/_global.scss */
+/* line 518, ../sass/_global.scss */
 .sec-contact .conatct-wrap p i { color: #646B6B; vertical-align: middle; margin-right: 5px; }
-/* line 526, ../sass/_global.scss */
+/* line 525, ../sass/_global.scss */
 .sec-contact .conatct-wrap .mail { color: #CC2026; margin-bottom: 30px; font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; }
-/* line 533, ../sass/_global.scss */
+/* line 532, ../sass/_global.scss */
 .sec-contact .call-wrap { margin-bottom: 30px; }
-/* line 536, ../sass/_global.scss */
+/* line 535, ../sass/_global.scss */
 .sec-contact .call-wrap span { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; color: #CC2026; margin-left: 50px; }
-/* line 541, ../sass/_global.scss */
+/* line 540, ../sass/_global.scss */
 .sec-contact .call-wrap span strong { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; color: #646B6B; font-weight: normal; }
-/* line 549, ../sass/_global.scss */
+/* line 548, ../sass/_global.scss */
 .sec-contact .email-wrap { margin-bottom: 30px; }
-/* line 555, ../sass/_global.scss */
+/* line 554, ../sass/_global.scss */
 .sec-contact .conatct-wrap a { color: #CC2026; padding: 0 5px; }
-/* line 559, ../sass/_global.scss */
+/* line 558, ../sass/_global.scss */
 .sec-contact .conatct-wrap a:hover, .sec-contact .conatct-wrap a:focus { color: #A01D25; text-decoration: none; }
-/* line 566, ../sass/_global.scss */
+/* line 565, ../sass/_global.scss */
 .sec-contact .footer-text { position: absolute; font-size: 12px; color: #646B6B; bottom: 20px; left: 50%; transform: translate(-50%, 0%); }
-/* line 574, ../sass/_global.scss */
+/* line 573, ../sass/_global.scss */
 .sec-contact .footer-text a { color: #CC2026; }
-/* line 577, ../sass/_global.scss */
+/* line 576, ../sass/_global.scss */
 .sec-contact .footer-text a:hover, .sec-contact .footer-text a:focus { color: #A01D25; text-decoration: none; }
 
 /*CSS added on 08/05/2017*/
-/* line 588, ../sass/_global.scss */
+/* line 587, ../sass/_global.scss */
 .content-wrap { display: flex; background-color: #fff; }
-/* line 593, ../sass/_global.scss */
+/* line 592, ../sass/_global.scss */
 .content-wrap .side-panel h1 { position: absolute; left: 50%; transform: translate(-50%, 0%); top: 300px; }
-/* line 601, ../sass/_global.scss */
+/* line 600, ../sass/_global.scss */
 .content-wrap .inner-content { color: #ED2626; margin: 3em; }
-/* line 604, ../sass/_global.scss */
+/* line 603, ../sass/_global.scss */
 .content-wrap .inner-content h3 { margin: auto 1em; }
-/* line 609, ../sass/_global.scss */
+/* line 608, ../sass/_global.scss */
 .content-wrap .pati { top: 500px; }
-/* line 613, ../sass/_global.scss */
+/* line 612, ../sass/_global.scss */
 .content-wrap .blockquote { font-size: 1.25em; line-height: 2; margin-bottom: 2em; margin-top: 1em; overflow-wrap: break-word; position: relative; color: #000; }
-/* line 623, ../sass/_global.scss */
+/* line 622, ../sass/_global.scss */
 .content-wrap .sub-heading { font-size: 2em; line-height: 1.4; color: #ED2626; }
-/* line 628, ../sass/_global.scss */
+/* line 627, ../sass/_global.scss */
 .content-wrap span { color: #ED2626; font-size: 1.25em; line-height: 1; margin: 1em; }
-/* line 635, ../sass/_global.scss */
+/* line 634, ../sass/_global.scss */
 .content-wrap p { color: #2E2E2E; margin: 1em; }
-/* line 640, ../sass/_global.scss */
+/* line 639, ../sass/_global.scss */
 .content-wrap .btn-register { font-size: 1em; line-height: 1; margin-top: 2em; font-weight: bold; }
-/* line 645, ../sass/_global.scss */
+/* line 644, ../sass/_global.scss */
 .content-wrap .btn-register a { color: #ED2626; border: 1px solid; padding: 1rem 2rem; border-radius: 5px; }
-/* line 654, ../sass/_global.scss */
+/* line 653, ../sass/_global.scss */
 .content-wrap .coc li { color: #000; }
-/* line 660, ../sass/_global.scss */
+/* line 659, ../sass/_global.scss */
 .content-wrap.coc-wrap .main-heading { color: #ED2626; }
-/* line 663, ../sass/_global.scss */
+/* line 662, ../sass/_global.scss */
 .content-wrap.coc-wrap h1 { text-transform: uppercase; }
 
-/* line 671, ../sass/_global.scss */
-.sec-sponsors .main-content .sponsors-logo-media { width: auto; height: 90px; margin-bottom: 30px; }
+/* line 670, ../sass/_global.scss */
+.sec-sponsors .main-content .sponsors-logo-media { width: auto; margin-bottom: 30px; }
 
-/* line 678, ../sass/_global.scss */
+/* line 676, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo-silver { width: auto; height: 70px; margin-bottom: 30px; }
-/* line 683, ../sass/_global.scss */
+/* line 681, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo-student { width: auto; height: 60px; margin-bottom: 30px; }
-/* line 688, ../sass/_global.scss */
+/* line 686, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo-workshop { width: auto; height: 60px; margin-bottom: 30px; }
 
-/* line 698, ../sass/_global.scss */
+/* line 696, ../sass/_global.scss */
 .white-image-bg { background-color: white; padding: 2ex; }
 
-/* line 703, ../sass/_global.scss */
+/* line 701, ../sass/_global.scss */
 .text-18 { font-size: 18px; }
 
-/* line 718, ../sass/_global.scss */
+/* line 716, ../sass/_global.scss */
 body.workshop { font-family: MontserratLight, Helvetica, Roboto, Arial, sans-serif; font-size: 18px; color: #0a0b0b; background-color: #fcfcfc; }
 
-/* line 726, ../sass/_global.scss */
+/* line 724, ../sass/_global.scss */
 .modal { text-align: center; padding: 0 !important; }
 
-/* line 731, ../sass/_global.scss */
+/* line 729, ../sass/_global.scss */
 .modal:before { content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -4px; }
 
-/* line 739, ../sass/_global.scss */
+/* line 737, ../sass/_global.scss */
 .modal-dialog { display: inline-block; text-align: left; vertical-align: middle; }
 
-/* line 745, ../sass/_global.scss */
+/* line 743, ../sass/_global.scss */
 .modal-title { text-align: center; color: white; background-color: #A01D25; }
 
-/* line 751, ../sass/_global.scss */
+/* line 749, ../sass/_global.scss */
 .modal-title-small { text-align: center; color: white; }
 
-/* line 756, ../sass/_global.scss */
+/* line 754, ../sass/_global.scss */
 .modal-header { background-color: #A01D25; }
+
+/* line 759, ../sass/_global.scss */
+.sponsors-heading { color: white; font-weight: bold; margin-bottom: 20px; }
 
 /* Extra Small devices (smart phones, 480px and up) */
 @media (max-width: 767px) { /* line 4, ../sass/_responsive.scss */
