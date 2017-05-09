@@ -2528,53 +2528,53 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 628, ../sass/_global.scss */
 .content-wrap span { color: #ED2626; font-size: 1.25em; line-height: 1; margin: 1em; }
 /* line 635, ../sass/_global.scss */
-.content-wrap p { color: #2E2E2E; margin: 1em; }
-/* line 640, ../sass/_global.scss */
+.content-wrap p { color: #2E2E2E; margin: 1em; line-height: 1.8; }
+/* line 641, ../sass/_global.scss */
 .content-wrap .btn-register { font-size: 1em; line-height: 1; margin-top: 2em; font-weight: bold; }
-/* line 645, ../sass/_global.scss */
+/* line 646, ../sass/_global.scss */
 .content-wrap .btn-register a { color: #ED2626; border: 1px solid; padding: 1rem 2rem; border-radius: 5px; }
-/* line 654, ../sass/_global.scss */
+/* line 655, ../sass/_global.scss */
 .content-wrap .coc li { color: #000; }
-/* line 660, ../sass/_global.scss */
+/* line 661, ../sass/_global.scss */
 .content-wrap.coc-wrap .main-heading { color: #ED2626; }
-/* line 663, ../sass/_global.scss */
+/* line 664, ../sass/_global.scss */
 .content-wrap.coc-wrap h1 { text-transform: uppercase; }
 
-/* line 671, ../sass/_global.scss */
+/* line 672, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo-media { width: auto; height: 90px; margin-bottom: 30px; }
 
-/* line 678, ../sass/_global.scss */
+/* line 679, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo-silver { width: auto; height: 70px; margin-bottom: 30px; }
-/* line 683, ../sass/_global.scss */
+/* line 684, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo-student { width: auto; height: 60px; margin-bottom: 30px; }
-/* line 688, ../sass/_global.scss */
+/* line 689, ../sass/_global.scss */
 .sec-sponsors .main-content .sponsors-logo-workshop { width: auto; height: 60px; margin-bottom: 30px; }
 
-/* line 698, ../sass/_global.scss */
+/* line 699, ../sass/_global.scss */
 .white-image-bg { background-color: white; padding: 2ex; }
 
-/* line 703, ../sass/_global.scss */
+/* line 704, ../sass/_global.scss */
 .text-18 { font-size: 18px; }
 
-/* line 718, ../sass/_global.scss */
+/* line 719, ../sass/_global.scss */
 body.workshop { font-family: MontserratLight, Helvetica, Roboto, Arial, sans-serif; font-size: 18px; color: #0a0b0b; background-color: #fcfcfc; }
 
-/* line 726, ../sass/_global.scss */
+/* line 727, ../sass/_global.scss */
 .modal { text-align: center; padding: 0 !important; }
 
-/* line 731, ../sass/_global.scss */
+/* line 732, ../sass/_global.scss */
 .modal:before { content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -4px; }
 
-/* line 739, ../sass/_global.scss */
+/* line 740, ../sass/_global.scss */
 .modal-dialog { display: inline-block; text-align: left; vertical-align: middle; }
 
-/* line 745, ../sass/_global.scss */
+/* line 746, ../sass/_global.scss */
 .modal-title { text-align: center; color: white; background-color: #A01D25; }
 
-/* line 751, ../sass/_global.scss */
+/* line 752, ../sass/_global.scss */
 .modal-title-small { text-align: center; color: white; }
 
-/* line 756, ../sass/_global.scss */
+/* line 757, ../sass/_global.scss */
 .modal-header { background-color: #A01D25; }
 
 /* Extra Small devices (smart phones, 480px and up) */
