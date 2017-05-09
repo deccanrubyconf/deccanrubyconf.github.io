@@ -2524,7 +2524,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 613, ../sass/_global.scss */
 .content-wrap .blockquote { font-size: 1.25em; line-height: 2; margin-bottom: 2em; margin-top: 1em; overflow-wrap: break-word; position: relative; color: #000; }
 /* line 623, ../sass/_global.scss */
-.content-wrap .sub-heading { font-size: 2em; line-height: 2.5; color: #ED2626; }
+.content-wrap .sub-heading { font-size: 2em; line-height: 1.4; color: #ED2626; }
 /* line 628, ../sass/_global.scss */
 .content-wrap span { color: #ED2626; font-size: 1.25em; line-height: 1; margin: 1em; }
 /* line 635, ../sass/_global.scss */
