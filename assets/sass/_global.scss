@@ -312,7 +312,7 @@ body{
       }
 
       p{
-        font-family: $font-MontserratHairLine;
+        font-family: $font-MontserratLight;
         font-size: 12px;
         margin-bottom: 10px;
         padding-top: 10px;
@@ -588,7 +588,7 @@ body{
 .content-wrap{
   display: flex;
   background-color: #fff;
-  
+
   .side-panel{
     h1{
       position: absolute;
@@ -597,7 +597,7 @@ body{
       top: 300px;
     }
   }
-  
+
   .inner-content{
     color:#ED2626;
     margin:3em;
@@ -605,11 +605,11 @@ body{
       margin:auto 1em;
     }
   }
-  
+
   .pati{
     top: 500px;
   }
-  
+
   .blockquote{
     font-size:1.25em;
     line-height:2;
@@ -619,7 +619,7 @@ body{
     position:relative;
     color:#000;
   }
-  
+
   .sub-heading{
     font-size:2em;
     line-height:2.5;
@@ -631,12 +631,12 @@ body{
     line-height:1;
     margin: 1em;
   }
-  
+
   p{
     color:#2E2E2E;
     margin:1em
   }
-  
+
   .btn-register{
     font-size:1em;
     line-height:1;
@@ -649,21 +649,75 @@ body{
       border-radius:5px;
     }
   }
-  
+
   .coc{
     li{
       color: #000;
     }
   }
-  
+
   &.coc-wrap{
     .main-heading{
       color:#ED2626;
     }
     h1{
       text-transform: uppercase;
-  
+
     }
   }
-  
+
+}
+
+.sec-sponsors .main-content .sponsors-logo-media {
+  width: auto;
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+.sec-sponsors .main-content {
+  .sponsors-logo-silver {
+    width: auto;
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  .sponsors-logo-student {
+    width: auto;
+    height: 60px;
+    margin-bottom: 30px;
+  }
+  .sponsors-logo-workshop {
+    width: auto;
+    height: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+//colors
+$white: white;
+
+.white-image-bg {
+  background-color: $white;
+  padding: 2ex;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+//colors
+$color_cod_gray_approx: #0a0b0b;
+$color_alabaster_approx: #fcfcfc;
+
+//fonts
+$font_0: MontserratLight;
+$font_1: Helvetica;
+$font_2: Roboto;
+$font_3: Arial;
+$font_4: sans-serif;
+
+body.workshop {
+  font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+  font-size: 18px;
+  color: $color_cod_gray_approx;
+  background-color: $color_alabaster_approx;
 }

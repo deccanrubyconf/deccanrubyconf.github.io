@@ -2417,7 +2417,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 310, ../sass/_global.scss */
 .sec-speakers .main-content .thumbnail h4 { margin-bottom: 5px; }
 /* line 314, ../sass/_global.scss */
-.sec-speakers .main-content .thumbnail p { font-family: "MontserratHairLine", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; margin-bottom: 10px; padding-top: 10px; }
+.sec-speakers .main-content .thumbnail p { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; margin-bottom: 10px; padding-top: 10px; }
 /* line 323, ../sass/_global.scss */
 .sec-speakers .main-content .caption { max-height: 300px; overflow: scroll; padding: 5px; }
 /* line 331, ../sass/_global.scss */
@@ -2539,6 +2539,25 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .content-wrap.coc-wrap .main-heading { color: #ED2626; }
 /* line 663, ../sass/_global.scss */
 .content-wrap.coc-wrap h1 { text-transform: uppercase; }
+
+/* line 671, ../sass/_global.scss */
+.sec-sponsors .main-content .sponsors-logo-media { width: auto; height: 90px; margin-bottom: 30px; }
+
+/* line 678, ../sass/_global.scss */
+.sec-sponsors .main-content .sponsors-logo-silver { width: auto; height: 70px; margin-bottom: 30px; }
+/* line 683, ../sass/_global.scss */
+.sec-sponsors .main-content .sponsors-logo-student { width: auto; height: 60px; margin-bottom: 30px; }
+/* line 688, ../sass/_global.scss */
+.sec-sponsors .main-content .sponsors-logo-workshop { width: auto; height: 60px; margin-bottom: 30px; }
+
+/* line 698, ../sass/_global.scss */
+.white-image-bg { background-color: white; padding: 2ex; }
+
+/* line 703, ../sass/_global.scss */
+.text-18 { font-size: 18px; }
+
+/* line 718, ../sass/_global.scss */
+body.workshop { font-family: MontserratLight, Helvetica, Roboto, Arial, sans-serif; font-size: 18px; color: #0a0b0b; background-color: #fcfcfc; }
 
 /* Extra Small devices (smart phones, 480px and up) */
 @media (max-width: 767px) { /* line 4, ../sass/_responsive.scss */
