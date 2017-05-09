@@ -3,6 +3,7 @@
 
 ``` ruby
 bundle install
+bower install
 
 bundle exec jekyll serve
 
