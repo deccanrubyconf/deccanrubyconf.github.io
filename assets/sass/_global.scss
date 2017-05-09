@@ -36,7 +36,7 @@ body{
   border: none;
   right: 0;
   left: 0;
-  background-color: rgba(10, 11, 11, 0.3);
+  background-color: rgba(10, 11, 11, 0.8);
 }
 
 .logo-wrap-mobile{
@@ -120,7 +120,7 @@ body{
     background: $alm-black url("../images/bg-home.jpg") 100% 100% no-repeat;
     background-size: cover;
     text-align: right;
-    padding: 150px 10px 10px;
+    padding: 99px 10px 10px;
     min-height: 660px;
   }
 
@@ -173,8 +173,8 @@ body{
 .get-sponsors{
   font-size: 24px;
   color: $light-gray;
-  margin-bottom: 45px;
-
+  //margin-bottom: 45px;
+  margin: auto 1em;
   a{
     color: $red;
     text-transform: uppercase;
@@ -303,7 +303,7 @@ body{
 
       .speakers{
         width: 200px;
-        height: auto;
+        height: 200px;
         margin-bottom: 10px;
       }
 
@@ -312,7 +312,7 @@ body{
       }
 
       p{
-        font-family: $font-MontserratHairLine;
+        font-family: $font-MontserratLight;
         font-size: 12px;
         margin-bottom: 10px;
         padding-top: 10px;
@@ -440,7 +440,6 @@ body{
 
     .sponsors-logo{
       width: auto;
-      height: 120px;
       margin-bottom: 30px;
     }
   }
@@ -452,7 +451,6 @@ body{
   .partners-wrap{
     width: auto;
     height: 120px;
-    background-color: $alm-white;
 
     .partners{
       position: relative;
@@ -465,8 +463,8 @@ body{
 
       p{
         font-family: $font-MontserratHairLine;
-        font-size: 12px;
-        color: $mid-gray;
+        font-size: 16px;
+        color: $white;
         text-transform: uppercase;
         padding-top: 5px;
       }
@@ -580,4 +578,204 @@ body{
       }
     }
   }
+}
+
+
+/*CSS added on 08/05/2017*/
+
+.content-wrap{
+  display: flex;
+  background-color: #fff;
+
+  .side-panel{
+    h1{
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      top: 300px;
+    }
+  }
+
+  .inner-content{
+    color:#ED2626;
+    margin:3em;
+    h3{
+      margin:auto 1em;
+    }
+  }
+
+  .pati{
+    top: 500px;
+  }
+
+  .blockquote{
+    font-size:1.25em;
+    line-height:2;
+    margin-bottom:2em;
+    margin-top:1em;
+    overflow-wrap:break-word;
+    position:relative;
+    color:#000;
+  }
+
+  .sub-heading{
+    font-size:1.7em;
+    line-height:1.4;
+    color: #ED2626;
+  }
+  span{
+    color: #ED2626;
+    font-size:1.25em;
+    line-height:1;
+    margin: 1em;
+  }
+
+  p{
+    color:#2E2E2E;
+    margin:1em;
+    line-height: 1.8
+  }
+
+  ul{
+    line-height: 1.8
+  }
+
+  .btn-register{
+    font-size:1em;
+    line-height:1;
+    margin-top:2em;
+    font-weight:bold;
+    a{
+      color:#ED2626;
+      border:1px solid;
+      padding:1rem 2rem;
+      border-radius:5px;
+    }
+  }
+
+  .coc{
+    li{
+      color: #000;
+    }
+  }
+
+  &.coc-wrap{
+    .main-heading{
+      color:#ED2626;
+    }
+    h1{
+      text-transform: uppercase;
+
+    }
+  }
+
+}
+
+.sec-sponsors .main-content .sponsors-logo-media {
+  margin-bottom: 30px;
+}
+
+.sec-sponsors .main-content {
+  .sponsors-logo-silver {
+    width: auto;
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  .sponsors-logo-student {
+    width: auto;
+    height: 60px;
+    margin-bottom: 30px;
+  }
+  .sponsors-logo-workshop {
+    width: auto;
+    height: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+.white-image-bg {
+  background-color: $white;
+  padding: 2ex;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+//colors
+$color_cod_gray_approx: #0a0b0b;
+$color_alabaster_approx: #fcfcfc;
+
+//fonts
+$font_0: MontserratLight;
+$font_1: Helvetica;
+$font_2: Roboto;
+$font_3: Arial;
+$font_4: sans-serif;
+
+body.workshop {
+  font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+  font-size: 18px;
+  color: $color_cod_gray_approx;
+  background-color: $color_alabaster_approx;
+}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-title {
+  text-align: center;
+  color: $white;
+  background-color: $dark-red;
+}
+
+.modal-title-small {
+  text-align: center;
+  color: $white;
+}
+
+.modal-header {
+  background-color: $dark-red;
+}
+
+
+.sponsors-heading {
+  color: $white;
+  font-weight: bold;
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+
+.sponsors-logo.img-responsive {
+  display: inline;
+}
+
+.sponsors-logo.img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+
+.sponsors-logo-media.img-responsive {
+  display: inline;
+  margin-right: 300px;
 }
