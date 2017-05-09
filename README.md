@@ -1,9 +1,10 @@
-# DeccanRubyConf 2015
-
+# DeccanRubyConf 
 # Setup instructions
 
 ``` ruby
 bundle install
 
 bundle exec jekyll serve
+
+compass watch
 ```
