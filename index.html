@@ -114,16 +114,13 @@
     	      <div class="row">
     		<div class="col-sm-4">
     		  <div class="thumbnail">
-    		    <img src="assets/images/speakers/200x200/tim_riley.jpg" alt="Tim Riley"
-                         class="speakers img-responsive">
+                    <a href="#" data-toggle="modal" data-target="#tim-modal">
+    		      <img src="assets/images/speakers/200x200/tim_riley.jpg" alt="Tim Riley"
+                           class="speakers img-responsive">
+                    </a>
 
     		    <div class="caption">
     		      <h4>Tim Riley</h4>
-
-    		      <p>Tim is a partner at Australian design agency Icelab, and a core
-    			developer of dry-rb. He’s excited by small libraries, first-class
-    			functions, and pushing forward web app development with Ruby.</p>
-
     		      <div class="socialmedia-link">
     			<a href="https://twitter.com/timriley" class="icon-twitter"
                            target="_blank"></a>
@@ -513,35 +510,35 @@
        	      <div class="row">
        		<div class="col-sm-4">
        		  <div class="thumbnail">
-       		    <img src="assets/images/speakers/200x200/tim_riley.jpg" alt="Tim Riley"
-       class="speakers img-responsive">
+                    <a href="#" data-toggle="modal" data-target="#tim-modal">
+       		      <img src="assets/images/speakers/200x200/tim_riley.jpg" alt="Tim Riley"
+                           class="speakers img-responsive">
+                    </a>
 
-       		    <div class="caption">
-       		      <h4>Tim Riley</h4>
+       		      <div class="caption">
+       		        <h4>Tim Riley</h4>
 
-       		      <p>Tim is a partner at Australian design and development agency Icelab, a co-founder and core developer of dry-rb, and a core developer of rom-rb. He’s been working exclusively with this stack for nearly 2 years, and is excited about advancing the state of web development in Ruby.</p>
-
-       		      <div class="socialmedia-link">
-       			<a href="https://twitter.com/tim_riley" class="icon-twitter"
-       target="_blank"></a>
+       		        <div class="socialmedia-link">
+       			  <a href="https://twitter.com/tim_riley" class="icon-twitter"
+                             target="_blank"></a>
+       		        </div>
        		      </div>
-       		    </div>
        		  </div>
        		</div>
 
        		<div class="col-sm-4">
        		  <div class="thumbnail">
-       		    <img src="assets/images/speakers/aditya.png" alt="Aditya Godbole"
-       class="speakers img-responsive">
+                    <a href="#" data-toggle="modal" data-target="#aditya-modal">
+       		      <img src="assets/images/speakers/aditya.png" alt="Aditya Godbole"
+                           class="speakers img-responsive">
+                    </a>
 
        		    <div class="caption">
        		      <h4>Aditya Godbole</h4>
 
-       		      <p>Aditya is a software architect with 13 years of experience. He has worked in many domains and technologies including Mainframes, Embedded systems, Linux and BSD Kernel Development, Image processing and Machine Vision, Web Applications, Cloud Infrastructure and DevOps.</p>
-
        		      <div class="socialmedia-link">
        			<a href="http://twitter.com/aagdbl" class="icon-twitter"" class="icon-twitter"
-       target="_blank"></a>
+                           target="_blank"></a>
        		      </div>
        		    </div>
        		  </div>
@@ -552,13 +549,13 @@
        	</div>
 
        	<div id="carousel-mobile" class="carousel slide" data-ride="carousel"
-       data-interval="false">
+             data-interval="false">
        	  <div class="carousel-inner carousel-mobile" role="listbox">
        	    <div class="item active">
 
        	      <div class="thumbnail">
        		<img src="assets/images/speakers/200x200/tim_riley.jpg" alt="Tim Riley"
-       class="speakers img-responsive">
+                     class="speakers img-responsive">
 
        		<div class="caption">
        		  <h4>Tim Riley</h4>
@@ -569,7 +566,7 @@
 
        		  <div class="socialmedia-link">
        		    <a href="https://twitter.com/timriley" class="icon-twitter"
-       target="_blank"></a>
+                       target="_blank"></a>
        		  </div>
        		</div>
        	      </div>
@@ -577,7 +574,7 @@
 
        	    <div class="thumbnail">
        	      <img src="assets/images/speakers/aditya.png" alt="Aditya Godbole"
-       class="speakers img-responsive">
+                   class="speakers img-responsive">
 
        	      <div class="caption">
        		<h4>Aditya Godbole</h4>
@@ -586,7 +583,7 @@
 
        		<div class="socialmedia-link">
        		  <a href="https://twitter.com/aagdbl" class="icon-twitter"
-       target="_blank"></a>
+                     target="_blank"></a>
        		</div>
        	      </div>
        	    </div>
@@ -1030,6 +1027,46 @@
     <script src="assets/javascripts/jquery.min.js"></script>
     <script src="assets/javascripts/bootstrap.min.js"></script>
     <script src="assets/javascripts/index_setup.js"></script>
+
+    <!-- Modals -->
+
+    <div id="tim-modal" class="fade modal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h1 class="modal-title">Tim Riley</h1>
+            <h4 class="modal-title-small">@tim_riley</h4>
+          </div>
+          <div class="modal-body">
+            <p>Tim is a partner at Australian design agency Icelab, and a core
+              developer of dry-rb. He’s excited by small libraries, first-class
+              functions, and pushing forward web app development with Ruby.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="aditya-modal" class="fade modal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h1 class="modal-title">Aditya Godbole</h1>
+            <h4 class="modal-title-small">@aagdbl</h4>
+          </div>
+          <div class="modal-body">
+            <p>Aditya is a software architect with 13 years of experience. He has worked in many domains and technologies including Mainframes, Embedded systems, Linux and BSD Kernel Development, Image processing and Machine Vision, Web Applications, Cloud Infrastructure and DevOps.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
   </body>
 </html>

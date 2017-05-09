@@ -2413,7 +2413,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 /* line 297, ../sass/_global.scss */
 .sec-speakers .main-content .thumbnail { width: 260px; padding-top: 30px; text-align: center; margin: 0 auto 20px; border-radius: 0; }
 /* line 304, ../sass/_global.scss */
-.sec-speakers .main-content .thumbnail .speakers { width: 200px; height: auto; margin-bottom: 10px; }
+.sec-speakers .main-content .thumbnail .speakers { width: 200px; height: 200px; margin-bottom: 10px; }
 /* line 310, ../sass/_global.scss */
 .sec-speakers .main-content .thumbnail h4 { margin-bottom: 5px; }
 /* line 314, ../sass/_global.scss */
@@ -2558,6 +2558,24 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 
 /* line 718, ../sass/_global.scss */
 body.workshop { font-family: MontserratLight, Helvetica, Roboto, Arial, sans-serif; font-size: 18px; color: #0a0b0b; background-color: #fcfcfc; }
+
+/* line 726, ../sass/_global.scss */
+.modal { text-align: center; padding: 0 !important; }
+
+/* line 731, ../sass/_global.scss */
+.modal:before { content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -4px; }
+
+/* line 739, ../sass/_global.scss */
+.modal-dialog { display: inline-block; text-align: left; vertical-align: middle; }
+
+/* line 745, ../sass/_global.scss */
+.modal-title { text-align: center; font-weight: bold; color: white; background-color: #A01D25; }
+
+/* line 752, ../sass/_global.scss */
+.modal-title-small { text-align: center; font-weight: bold; color: white; }
+
+/* line 758, ../sass/_global.scss */
+.modal-header { background-color: #A01D25; }
 
 /* Extra Small devices (smart phones, 480px and up) */
 @media (max-width: 767px) { /* line 4, ../sass/_responsive.scss */
