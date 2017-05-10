@@ -1464,7 +1464,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .sec-contact .footer-text a:hover, .sec-contact .footer-text a:focus { color: #A01D25; text-decoration: none; }
 
 /*CSS added on 08/05/2017*/
-.content-wrap { display: flex; background-color: #fff; }
+.content-wrap { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; background-color: #fff; }
 .content-wrap .side-panel h1 { position: absolute; left: 50%; transform: translate(-50%, 0%); top: 300px; }
 .content-wrap .inner-content { color: #ED2626; margin: 3em; }
 .content-wrap .inner-content h3 { margin: auto 1em; }
@@ -1556,7 +1556,12 @@ body.workshop { font-family: MontserratLight, Helvetica, Roboto, Arial, sans-ser
   .sec-contact .conatct-wrap { margin-bottom: 30px; }
   .sec-contact .conatct-wrap p { margin: 0 auto 10px; padding-bottom: 5px; }
   .sec-contact .call-wrap span { display: block; margin: 0 0 5px; }
-  .sec-contact .footer-text { position: inherit; left: inherit; bottom: inherit; transform: translate(0%, 0%); } }
+  .sec-contact .footer-text { position: inherit; left: inherit; bottom: inherit; transform: translate(0%, 0%); }
+  /*changes made on 10/05/2017*/
+  .content-wrap { -webkit-box-direction: normal; -webkit-box-orient: vertical; -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
+  .content-wrap .side-panel h1 { top: 60px; }
+  .content-wrap .pati { top: 140px; }
+  /*changes made on 10/05/2017*/ }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { h1 { font-size: 28px; line-height: 36px; }
   h2 { font-size: 20px; }

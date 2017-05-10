@@ -584,7 +584,7 @@ body{
 /*CSS added on 08/05/2017*/
 
 .content-wrap{
-  display: flex;
+  @include flexbox();
   background-color: #fff;
 
   .side-panel{
