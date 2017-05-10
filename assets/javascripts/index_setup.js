@@ -2,7 +2,11 @@ $(document).ready(function(){
     if ($(window).innerWidth() <= 480) {
 
         $(".nav li a[href*=#]:not([href=#])").on("click", function(e) {
-            var hash;
+            var hash, top;
+            hash = this.hash;
+            top = $(this.hash).offset();
+
+          if(typeof(top) !== 'undefined') {
             e.preventDefault();
             hash = this.hash;
             $("html, body").animate({
@@ -10,7 +14,7 @@ $(document).ready(function(){
             }, 1500);
 
             $(".navbar-toggle").click()
-
+          }
         });
     } else {
 
