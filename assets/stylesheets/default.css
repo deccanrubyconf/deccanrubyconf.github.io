@@ -1539,7 +1539,7 @@ body.workshop { font-family: MontserratLight, Helvetica, Roboto, Arial, sans-ser
   .sec-about .main-content h1 { padding-bottom: 20px; margin-bottom: 20px; }
   .sec-about .dhamaal-wrap { position: inherit; bottom: inherit; margin-bottom: 15px; }
   .sec-speakers .main-content { padding: 15px; min-height: inherit; }
-  #carousel-desktop, .carousel-desktop { display: none; }
+  .carousel-desktop { display: none; }
   .sec-speakers #carousel-mobile, .sec-speakers .carousel-mobile { display: block; }
   .sec-schedule .main-content h1 { margin-bottom: 20px; }
   .sec-schedule .schedule-table { font-size: 14px; }
