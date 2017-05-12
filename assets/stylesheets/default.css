@@ -1516,6 +1516,8 @@ body.workshop { font-family: MontserratLight, Helvetica, Roboto, Arial, sans-ser
 
 .coc-section { background: #0A0B0B url("../images/bg-about.jpg") 100% 100% no-repeat; background-size: cover; }
 
+.faq-section { background: #0A0B0B url("../images/bg-about.jpg") 100% 100% no-repeat; background-size: cover; }
+
 /* Extra Small devices (smart phones, 480px and up) */
 @media (max-width: 767px) { h1 { font-size: 30px; line-height: 40px; }
   h2 { font-size: 20px; }
