@@ -1410,6 +1410,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .sec-about .dhamaal-wrap p { color: #646B6B; margin-bottom: 0; }
 .sec-about .dhamaal-wrap p:first-child { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; }
 
+.sec-speakers { background: #A01D25; }
 .sec-speakers .main-content { background: #0A0B0B url("../images/bg-speakers.jpg") 100% 100% no-repeat; background-size: cover; min-height: 666px; padding: 30px 70px; }
 .sec-speakers .main-content .thumbnail { width: 260px; padding-top: 30px; text-align: center; margin: 0 auto 20px; border-radius: 0; }
 .sec-speakers .main-content .thumbnail .speakers { width: 200px; height: 200px; margin-bottom: 10px; }
