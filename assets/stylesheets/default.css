@@ -1416,7 +1416,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .sec-speakers .main-content .thumbnail .speakers { width: 200px; height: 200px; margin-bottom: 10px; }
 .sec-speakers .main-content .thumbnail h4 { margin-bottom: 5px; }
 .sec-speakers .main-content .thumbnail p { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; font-size: 12px; margin-bottom: 10px; padding-top: 10px; }
-.sec-speakers .main-content .caption { max-height: 300px; overflow: scroll; padding: 5px; }
+.sec-speakers .main-content .caption { max-height: 300px; overflow: auto; padding: 5px; }
 .sec-speakers .main-content .socialmedia-link a { color: #CC2026; padding: 0 5px; font-size: 18px; }
 .sec-speakers .main-content .socialmedia-link a:hover, .sec-speakers .main-content .socialmedia-link a:focus { color: #A01D25; text-decoration: none; }
 .sec-speakers .main-content .direction-arrow { font-size: 36px; color: #646B6B; }
