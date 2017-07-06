@@ -1411,7 +1411,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .sec-about .dhamaal-wrap p:first-child { font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; }
 
 .sec-speakers { background: #A01D25; }
-.sec-speakers .main-content { background: #0A0B0B url("../images/bg-speakers.jpg") 100% 100% no-repeat; background-size: cover; min-height: 666px; padding: 30px 70px; }
+.sec-speakers .main-content { background: #0A0B0B url("../images/bg-speakers.jpg") 100% 100% no-repeat; background-size: cover; min-height: 500px; padding: 30px 70px; }
 .sec-speakers .main-content .thumbnail { width: 260px; padding-top: 30px; text-align: center; margin: 0 auto 20px; border-radius: 0; }
 .sec-speakers .main-content .thumbnail .speakers { width: 200px; height: 200px; margin-bottom: 10px; }
 .sec-speakers .main-content .thumbnail h4 { margin-bottom: 5px; }
@@ -1421,7 +1421,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .sec-speakers .main-content .socialmedia-link a:hover, .sec-speakers .main-content .socialmedia-link a:focus { color: #A01D25; text-decoration: none; }
 .sec-speakers .main-content .direction-arrow { font-size: 36px; color: #646B6B; }
 .sec-speakers .main-content .direction-arrow:hover, .sec-speakers .main-content .direction-arrow:focus { text-decoration: none; }
-.sec-speakers .side-panel { min-height: 666px; }
+.sec-speakers .side-panel { min-height: 500px; }
 .sec-speakers #carousel-mobile, .sec-speakers .carousel-mobile { display: none; }
 
 .sec-schedule .main-content { background: #0A0B0B url("../images/bg-schedule.jpg") 100% 100% no-repeat; background-size: cover; min-height: 556px; }
