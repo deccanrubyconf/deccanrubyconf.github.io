@@ -1440,7 +1440,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .sec-sponsors .main-content { position: relative; background: #0A0B0B url("../images/bg-sponsors.jpg") 100% 100% no-repeat; background-size: cover; min-height: 757px; }
 .sec-sponsors .main-content h2 { color: #93A3A4; margin-bottom: 15px; }
 .sec-sponsors .main-content .sponsors-logo { width: auto; margin-bottom: 30px; }
-.sec-sponsors .side-panel { min-height: 757px; }
+.sec-sponsors .side-panel { min-height: 990px; }
 .sec-sponsors .partners-wrap { width: auto; height: 120px; }
 .sec-sponsors .partners-wrap .partners { position: relative; width: 33%; display: inline-block; float: left; text-align: center; top: 50%; transform: translate(0%, -50%); }
 .sec-sponsors .partners-wrap .partners p { font-family: "MontserratHairLine", Helvetica, Roboto, Arial, sans-serif; font-size: 16px; color: white; text-transform: uppercase; padding-top: 5px; }
