@@ -1424,6 +1424,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .sec-speakers .side-panel { min-height: 500px; }
 .sec-speakers #carousel-mobile, .sec-speakers .carousel-mobile { display: none; }
 
+.sec-schedule { padding-top: 20px; }
 .sec-schedule .main-content { background: #0A0B0B url("../images/bg-schedule.jpg") 100% 100% no-repeat; background-size: cover; min-height: 556px; }
 .sec-schedule .main-content h1 { color: #A01D25; margin-bottom: 36px; }
 .sec-schedule .side-panel { min-height: 556px; }
