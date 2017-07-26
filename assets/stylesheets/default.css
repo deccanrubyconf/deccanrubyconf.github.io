@@ -1356,7 +1356,7 @@ body { font-family: "MontserratLight", Helvetica, Roboto, Arial, sans-serif; fon
 .logo-wrap-mobile a { font-size: 32px; color: #FCFCFC; }
 .logo-wrap-mobile a:hover, .logo-wrap-mobile a:focus { text-decoration: none; }
 
-.navbar-nav li a { padding: 13px; font-size: 12px; font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; color: #A01D25; text-transform: uppercase; }
+.navbar-nav li a { padding: 12px; font-size: 12px; font-family: "MontserratRegular", Helvetica, Roboto, Arial, sans-serif; color: #A01D25; text-transform: uppercase; }
 .navbar-nav li a:hover, .navbar-nav li a:focus { background-color: transparent; color: #FCFCFC; }
 
 .sec-default { margin: 0; }
