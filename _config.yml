@@ -30,5 +30,5 @@ sass:
 # Remember to enable back and run
 # jekyll build
 # to rebuild site after new changes, before pushing to s3, using s3_website push
-gems:
+plugins:
   - jekyll-paginate
