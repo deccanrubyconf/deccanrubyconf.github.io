@@ -149,6 +149,8 @@ mark, .mark { background-color: #fcf8e3; padding: .2em; }
 
 .text-center { text-align: center; }
 
+.text-align-center { text-align: -webkit-center; }
+
 .text-justify { text-align: justify; }
 
 .text-nowrap { white-space: nowrap; }
