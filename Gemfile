@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-ruby '2.5.1'
+ruby '2.6.1'
 
-gem 'github-pages'
+gem 'github-pages', group: :jekyll_plugins
 
 gem 'compass'
