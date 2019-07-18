@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2018, Codrops
  * http://www.codrops.com
  */
@@ -92,16 +92,19 @@
 			this.DOM.items.forEach((item, pos) => {
 				this.boxes.push(new Box(item, pos));
 			});
-
+      this.setInitialPage();
 			this.initEvents();
 		}
+
 		initEvents() {
 			for( let i = 0; i < this.itemsTotal; ++i ) {
 				const link = this.boxes[i].DOM.link;
 				if ( link ) {
 					link.addEventListener('click', (ev) => {
-						ev.preventDefault();
-						if ( this.isAnimating ) return;
+						if ( this.isAnimating ) {
+              ev.preventDefault();
+						  return;
+            }
 						document.querySelector('.content--switch-current').classList.remove('content--switch-current');
 						document.querySelector(link.getAttribute('href')).classList.add('content--switch-current');
 						this.close();
@@ -109,6 +112,20 @@
 				}
 			}
 		}
+
+		setInitialPage() {
+      const hash = location.hash
+      const allHrefs = this.boxes.map(box => {
+        const link = box.DOM.link
+        if (link) return link.getAttribute('href')
+      })
+
+      if (allHrefs.includes(hash)) {
+        document.querySelector('.content--switch-current').classList.remove('content--switch-current');
+        document.querySelector(hash).classList.add('content--switch-current');
+      }
+    }
+
 		open() {
 			this.toggle('open');
 		}
@@ -149,7 +166,7 @@
 		open: document.querySelector('.menu-trigger'),
 		close: document.querySelector('.menu-trigger--close')
 	};
-	
+
 	DOM.menuCtrls.open.addEventListener('click', () => DOM.menu.open());
 	DOM.menuCtrls.close.addEventListener('click', () => DOM.menu.close());
 }

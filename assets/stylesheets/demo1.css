@@ -30,23 +30,23 @@
 	text-align: center;
 }
 
-#content-2 {
+#venue {
 	background-color: #383f4b;
 }
 
-#content-3 {
+#sponsors {
 	background-color: #3d384b;
 }
 
-#content-4 {
+#speakers {
 	background-color: #4b384a;
 }
 
-#content-5 {
+#tickets {
 	background-color: #394b38;
 }
 
-#content-6 {
+#schedule {
 	background-color: #4b4238;
 }
 
@@ -85,7 +85,7 @@
 	.menu-trigger--close {
 		align-self: center;
 	}
-	
+
 	.grim {
 		display: grid;
 		position: fixed;
