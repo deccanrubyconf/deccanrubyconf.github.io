@@ -54,27 +54,27 @@
 	background: linear-gradient(transparent, #000);
 }
 
-#content-1 {
+#home {
 	background-image: url(../img/bg.jpg);
 }
 
-#content-2 {
+#venue {
 	background-image: url(../img/bg1.jpg);
 }
 
-#content-3 {
+#sponsors {
 	background-image: url(../img/bg2.jpg);
 }
 
-#content-4 {
+#speakers {
 	background-image: url(../img/bg3.jpg);
 }
 
-#content-5 {
+#tickets {
 	background-image: url(../img/bg4.jpg);
 }
 
-#content-6 {
+#schedule {
 	background-image: url(../img/bg5.jpg);
 }
 
