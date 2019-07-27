@@ -275,4 +275,25 @@ main {
 	.demo:nth-child(2) {
 		margin: 0 3rem 0 1.5rem;
 	}
-}
+	.dIb{
+		display: inline-block;
+	}
+	#speakers .row, #program .row{
+		padding: 10px;
+	}
+	#speakers img, #program img{
+		border-radius: 50%;
+		border: 2px solid #fff;
+	}
+	#speakers img{
+		margin: 0px 25px;
+	}
+	#program img{
+		margin: 15px 25px;
+	}
+	.txt-block{
+		max-width: 650px;
+	}
+
+
+
