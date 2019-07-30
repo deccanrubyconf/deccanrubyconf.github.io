@@ -55,15 +55,45 @@
 <main>
   <div class="message">To see the menu, please view on a larger screen.</div>
   <div class="content content--fixed">
-    <header class="codrops-header">
-      <h1 class="codrops-header__title">#{DeccanRubyConf 2019}</h1>
-    </header>
+   <header>
+     <nav class="navbar navbar-fixed-top nav-menubar" role="navigation">
+       <div class="container">
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+           <ul class="nav navbar-nav" style="margin: 0px;">
+            <li class="nav-menu menu-header" style="padding: 0px;">
+               <a class="navbar-brand" href="#home">
+                #{DeccanRubyConf 2019}
+              </a>
+            </li>
+             <li class="nav-menu">
+               <a href="#venue" class="dropdown-toggle" data-toggle="dropdown" >Venue  <b class="caret"></b></a>
+             </li>
+             <li class="nav-menu">
+               <a href="#program" class="dropdown-toggle" data-toggle="dropdown">Program  <b class="caret"></b></a>
+             </li>
+             <li class="nav-menu">
+               <a href="#speakers" class="dropdown-toggle" data-toggle="dropdown">Speakers <b class="caret"></b></a>
+             </li>
+             <li class="qw2r">
+               <a href="#sponsors" class="dropdown-toggle" data-toggle="dropdown">Sponsors<b class="caret"></b></a>
+             </li>
+             <li class="nav-menu">
+               <a href="#tickets" class="dropdown-toggle" data-toggle="dropdown">Tickets <b class="caret"></b></a>
+             </li>
+           </ul>
+         </div>
+         <!-- /.navbar-collapse -->
+       </div>
+       <!-- /.container -->
+     </nav>
+   </header>
     <nav class="demos">
       <a class="demo" target="_blank" href="https://twitter.com/deccanrubyconf">Twitter</a>
     </nav>
     <button class="menu-trigger" style="font-size: x-large;">puts menu</button>
   </div>
-  <div id="home" class="content content--switch content--switch-current">
+  <div id="home" class=" current content content--switch content--switch-current">
     <h2 class="content__title">DeccanRubyConf</h2>
     <h5 class="content__title">2019</h5>
     <div class="content__date">10th August 2019</div>
@@ -456,28 +486,16 @@
       </tr>
       <tr>
         <td>3.30 PM - 4.15 PM</td>
-        <td>Obeservability and Corelation by Nishant Modak</td>
+        <td>Flash talks</td>
       </tr>
       <tr>
-        <td>4.45 PM - 5.30 PM</td>
-        <td>Keynote by Rohas Nagpal</td>
-      </tr>
-      <tr>
-        <td>5.30 PM - 5.45 PM</td>
-        <td>Vote of thanks</td>
-      </tr>
-      <tr>
-        <td>5.45 PM - 6.30 PM</td>
-        <td>Networking</td>
-      </tr>
-      <tr>
-        <td>6.30 PM -</td>
-        <td>Party</td>
+        <td>3.30 PM - 4.15 PM</td>
+        <td>Flash talks</td>
       </tr>
     </tbody>
   </table>
   </div>
-  <nav class="grim">
+   <nav class="grim">
     <div class="grim__item">
       <div class="grim__item-bg grim__item-bg--1"></div>
     </div>
