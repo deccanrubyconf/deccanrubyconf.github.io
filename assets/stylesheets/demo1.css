@@ -124,31 +124,31 @@
 	}
 
 	.grim__item:nth-child(4) {
-		grid-area: 29 / 3 / 33 / 5;
+		grid-area: 29 / 3 / 33 / 7;
 	}
 
 	.grim__item:nth-child(5) {
-		grid-area: 25 / 1 / 29 / 5;
+		grid-area: 23 / 1 / 29 / 7;
 	}
 
 	.grim__item:nth-child(6) {
-		grid-area: 25 / 5 / 33 / 9;
+		grid-area: 23 / 7 / 33 / 11;
 	}
 
 	.grim__item:nth-child(7) {
-		grid-area: 17 / 1 / 25 / 9;
+		grid-area: 15 / 1 / 23 / 11;
 	}
 
 	.grim__item:nth-child(8) {
-		grid-area: 17 / 9 / 33 / 17;
+		grid-area: 15 / 11 / 33 / 19;
 	}
 
 	.grim__item:nth-child(9) {
-		grid-area: 1 / 1 / 17 / 17;
+		grid-area: 1 / 1 / 15 / 19;
 	}
 
 	.grim__item:nth-child(10) {
-		grid-area: 1 / 17 / 33 / 33;
+		grid-area: 1 / 19 / 33 / 33;
 	}
 
 	.grim__item-bg {
@@ -235,5 +235,9 @@
 		position: relative;
 		display: block;
 		font-size: 1.75rem;
+	}
+	/* Schedule related css*/
+	#schedule td{
+		padding: 5px;
 	}
 }
