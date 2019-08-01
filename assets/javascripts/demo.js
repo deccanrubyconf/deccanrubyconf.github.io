@@ -12,6 +12,7 @@
 	setTimeout(() => document.body.classList.add('render'), 60);
 	const navdemos = Array.from(document.querySelectorAll('nav.demos > .demo'));
 	const total = navdemos.length;
+	const navmenu = Array.from(document.querySelectorAll('.nav-menubar li'));
 	const current = navdemos.findIndex(el => el.classList.contains('demo--current'));
 	const navigate = (linkEl) => {
 		document.body.classList.remove('render');
@@ -35,4 +36,11 @@
 		}
 		navigate(linkEl);
 	});
-}
+	for(var j=0;j<navmenu.length;j++)
+	  {
+	    navmenu[j].addEventListener('click',function(){
+	    document.querySelector('.content--switch-current').classList.remove('content--switch-current');
+		document.querySelector(this.firstElementChild.getAttribute("href")).classList.add('content--switch-current');
+	    },false);
+	  }
+} 
