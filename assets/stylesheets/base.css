@@ -201,6 +201,35 @@ main {
 .demo--current {
 	opacity: 0.5;
 }
+.navbar-nav{
+	list-style: none;
+	padding: 0px;
+}
+#speakers img, #program img{
+		border-radius: 50%;
+		border: 2px solid #fff;
+}
+.conf-box {    
+		border: 4px solid #f8d05d;
+	    margin: 1em 2em;
+	    width: 150px;
+	    display: inline-block;
+	}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+   .nav-menubar {
+   	text-align: center;
+   }
+   .mobile-align-center{
+   	text-align: center;
+   }
+   #program h2{
+   	padding-bottom: 10px;
+   }
+   .mobile-theader{
+   	width: 45%;
+   }
+}
 
 @media screen and (min-width: 55em) {
 	.message {
@@ -281,10 +310,6 @@ main {
 	#speakers .row, #program .row{
 		padding: 10px;
 	}
-	#speakers img, #program img{
-		border-radius: 50%;
-		border: 2px solid #fff;
-	}
 	#speakers img{
 		margin: 0px 25px;
 	}
@@ -294,11 +319,6 @@ main {
 	.txt-block{
 		max-width: 650px;
 	}
-	.navbar-nav{
-		list-style: none;
-		padding: 0px;
-	}
-
 	.menu-header{
 		width: 40%;
 	}
@@ -306,12 +326,19 @@ main {
 		display: inline-block;
 		padding:  10px;
 	}
-	.conf-box {    
-	border: 4px solid #f8d05d;
-    margin: 1em 2em;
-    width: 150px;
-    display: inline-block;
+	.platinum-sponsor-img{
+		width: 400px;
 	}
+	.gold-sponsor-img{
+		width: 300px;
+	}
+	.digi-sponsor-img{
+		width: 200px;
+	}
+	.silver-sponsor-img{
+		width: 100px;
+	}
+}
 	
 
 
