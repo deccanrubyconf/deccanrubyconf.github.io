@@ -125,7 +125,7 @@ button:focus {
 	z-index: 100;
 	padding: 1em;
 	text-align: center;
-	color: var(--color-bg);
+	color: #333;
 	background: var(--color-text);
 }
 
@@ -210,7 +210,7 @@ main {
 		border: 2px solid #fff;
 }
 .conf-box {    
-		border: 4px solid #f8d05d;
+		border: 4px solid #fff;
 	    margin: 1em 2em;
 	    width: 150px;
 	    display: inline-block;

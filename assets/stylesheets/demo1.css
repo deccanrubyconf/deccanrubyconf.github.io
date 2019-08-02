@@ -2,9 +2,9 @@
 
 .demo-1 {
 	font-family: 'Josefin Sans', sans-serif;
-    --color-text: #fff;
-    --color-bg: #101010;
-    --color-link: #f8d05d;
+    --color-text: #fff;  
+    --color-bg: linear-gradient(to bottom right, #f8d25c, #b20129);
+    --color-link: #fff;
     --color-link-hover: #949494;
     --color-info: #f0f0f0;
 }
@@ -31,23 +31,31 @@
 }
 
 #venue {
-	background-color: #383f4b;
+	background-color: #265077;
 }
 
 #sponsors {
-	background-color: #3d384b;
+	background-color: #022140;
 }
 
 #speakers {
-	background-color: #4b384a;
+	background-color: #494b68;
 }
 
 #tickets {
-	background-color: #394b38;
+	background-color: #1E4258;
+}
+
+#program {
+	background-color: #2d5f5d;
 }
 
 #schedule {
-	background-color: #4b4238;
+	background-color: #265077;	
+}
+
+#pastconf{
+	background-color: #022140;
 }
 
 .menu-trigger {
