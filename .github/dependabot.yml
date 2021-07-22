@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: nokogiri
+    versions:
+    - 1.11.1
+    - 1.11.2
+  - dependency-name: github-pages
+    versions:
+    - "211"
+    - "212"
